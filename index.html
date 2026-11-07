@@ -134,7 +134,7 @@
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
   <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">3件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">520件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">523件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,65 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (124)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (111)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (74)</label><label class="filter-btn" for="cat4">💻 コーディング (71)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (53)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (125)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (111)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (75)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (53)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="動画制作" data-search="google「gemini omni 1.2 flash」（11/5）：動画が15秒まで一発で作れて、3割値下げ。無料の google vids でも今日から使える  google の動画生成モデルが 1.2 flash に上がった。1本で作れる長さが 10 秒から 15 秒に伸び（3〜15 秒を 1 秒刻みで指定）、人物・商品・スタイルの参照画像や 3 秒までの動きの参照、音声の手がかりを混ぜても、顔・服・パッケージの文字・ブランド色が最後まで崩れにくくなった。できた動画は会話の続きで「背景を替えて」「縦にして」と直せて、作り直しが要らない。360p/720p で下書きして 1080p や 4k にアップスケールする流れで、api の価格は 3 割安くなった。gemini api・google cloud・google vids・gemini for business で順次使える。 x 投稿用の 15 秒プロモを 1 本で出せる。商品写真の表裏と人物写真を参照にして、着せ替え・360 度回転のカットを作る。無料の google アカウントで vids.new を開けば、vids の中で omni 1.2 の生成をタダで試せる（月に数本の上限あり）。同じ動画の背景違い・比率違いを会話で量産できるので、広告の差し替え案を作る手間が減る。" style="border-left: 4px solid #FF6B35;">
+    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield に「kling 4.0 flash」が入った（11/4）：kling 4.0 の軽量版。3〜20秒・720pを安く速く、試し打ちや量産向け  kling 4.0 の軽い版が higgsfield で使えるようになった。references・frames・edit video の3モードはそのままで、3〜20秒・720p。参照は画像10枚＋動画5本、@で elements も呼べる。1回あたりの消費は kling 4.0 より少ない。 絵コンテ段階の動きの確認や、sns用の短尺を数多く回す時は flash で当たりを探し、本番の1080p・キーフレーム指定は kling 4.0 に切り替える。クレジットの節約になる。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-04</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield に「Kling 4.0 Flash」が入った（11/4）：Kling 4.0 の軽量版。3〜20秒・720pを安く速く、試し打ちや量産向け</h2>
+      <p class="summary">Kling 4.0 の軽い版が Higgsfield で使えるようになった。References・Frames・Edit video の3モードはそのままで、3〜20秒・720p。参照は画像10枚＋動画5本、@で Elements も呼べる。1回あたりの消費は Kling 4.0 より少ない。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 絵コンテ段階の動きの確認や、SNS用の短尺を数多く回す時は Flash で当たりを探し、本番の1080p・キーフレーム指定は Kling 4.0 に切り替える。クレジットの節約になる。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#kling-4-0-flash-20261104" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="higgsfield に「gpt image 2.6」と「gemini omni 1.2 flash」が入った（11/5）：アニメgif・svg・透過pngの画像と、15秒・最大4kの動画が higgsfield の中で作れる  openai の gpt image 2.6（速い flare と高精度の sunburst）が higgsfield に入り、普通の画像に加えてアニメgif・ベクターsvg・透過背景で書き出せる。google の gemini omni 1.2 flash も同日に入り、3〜15秒・360p〜4k、参照は画像6枚＋短い動画3本、後ろへ継ぎ足して最長30秒まで伸ばせる。どちらも higgsfield mcp・cli からも呼べる。 テロップ素材やアイコンは sunburst で透過png・svgにしてそのまま編集ソフトへ。ちょっとしたループ演出は gif で。omni は商品・キャラ参照を入れた15秒カットを作り、足りなければ extend で継ぐ。claude から higgsfield mcp で一括生成もできる。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-05</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield に「GPT Image 2.6」と「Gemini Omni 1.2 Flash」が入った（11/5）：アニメGIF・SVG・透過PNGの画像と、15秒・最大4Kの動画が Higgsfield の中で作れる</h2>
+      <p class="summary">OpenAI の GPT Image 2.6（速い Flare と高精度の Sunburst）が Higgsfield に入り、普通の画像に加えてアニメGIF・ベクターSVG・透過背景で書き出せる。Google の Gemini Omni 1.2 Flash も同日に入り、3〜15秒・360p〜4K、参照は画像6枚＋短い動画3本、後ろへ継ぎ足して最長30秒まで伸ばせる。どちらも Higgsfield MCP・CLI からも呼べる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> テロップ素材やアイコンは Sunburst で透過PNG・SVGにしてそのまま編集ソフトへ。ちょっとしたループ演出は GIF で。Omni は商品・キャラ参照を入れた15秒カットを作り、足りなければ Extend で継ぐ。Claude から Higgsfield MCP で一括生成もできる。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#gpt-image-2-6-omni-20261105" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="コーディング" data-search="cursor「build live apps」（11/5）：作ったwebアプリを、db・ログイン・置き場所ごと cursor が用意してリンクで共有できる  cursor の中で「こういうアプリを」と頼むと、雛形・postgres データベース・cursor のログイン・ホスティングまで用意し、好きなアドレスで公開できる。公開前に秘密情報の書き込みなどを自動で検査し、通ったものだけが出る。見せる相手は特定の人・グループ・チーム単位で選べる。 素材の管理表、撮影の香盤、社内向けの小さなツールなどを cursor で作って、そのままチームにリンクで配れる。サーバーやdbを別に契約しなくていい。クラウドエージェントが有効な有料プランが対象。" style="border-left: 4px solid #0099FF;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#0099FF">💻 コーディング</span>
+          <span class="date-badge">📅 2026-11-05</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Cursor「Build Live Apps」（11/5）：作ったWebアプリを、DB・ログイン・置き場所ごと Cursor が用意してリンクで共有できる</h2>
+      <p class="summary">Cursor の中で「こういうアプリを」と頼むと、雛形・Postgres データベース・Cursor のログイン・ホスティングまで用意し、好きなアドレスで公開できる。公開前に秘密情報の書き込みなどを自動で検査し、通ったものだけが出る。見せる相手は特定の人・グループ・チーム単位で選べる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 素材の管理表、撮影の香盤、社内向けの小さなツールなどを Cursor で作って、そのままチームにリンクで配れる。サーバーやDBを別に契約しなくていい。クラウドエージェントが有効な有料プランが対象。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://cursor.com/changelog/build-live-apps" target="_blank" rel="noopener">Cursor Changelog</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="動画制作" data-search="google「gemini omni 1.2 flash」（11/5）：動画が15秒まで一発で作れて、3割値下げ。無料の google vids でも今日から使える  google の動画生成モデルが 1.2 flash に上がった。1本で作れる長さが 10 秒から 15 秒に伸び（3〜15 秒を 1 秒刻みで指定）、人物・商品・スタイルの参照画像や 3 秒までの動きの参照、音声の手がかりを混ぜても、顔・服・パッケージの文字・ブランド色が最後まで崩れにくくなった。できた動画は会話の続きで「背景を替えて」「縦にして」と直せて、作り直しが要らない。360p/720p で下書きして 1080p や 4k にアップスケールする流れで、api の価格は 3 割安くなった。gemini api・google cloud・google vids・gemini for business で順次使える。 x 投稿用の 15 秒プロモを 1 本で出せる。商品写真の表裏と人物写真を参照にして、着せ替え・360 度回転のカットを作る。無料の google アカウントで vids.new を開けば、vids の中で omni 1.2 の生成をタダで試せる（月に数本の上限あり）。同じ動画の背景違い・比率違いを会話で量産できるので、広告の差し替え案を作る手間が減る。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -164,7 +218,7 @@
         <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" target="_blank" rel="noopener">Google（公式ブログ）</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma のエージェントが作るベクターイラスト・アイコンが実用レベルに（11/5）：レイヤー分けされて、線は塗りでなくストローク。figma motion ですぐ動かせる  figma のエージェントが生成するベクターのイラストとアイコンが改善された。パーツごとに独立したレイヤーで直感的にグループ化され、線は塗りではなくストロークで描かれるので、線の太さや端の形を描き直さずに変えられる。手持ちのイラストを参照として渡せば、同じタッチでアイコンや部品をまとめて作れる。レイヤー構造がきれいなので、そのまま figma motion でアニメーションにできる。 動画の説明パートに入れるアイコンやイラストを、自社のタッチの見本を 1 枚渡して一式そろえる。できたベクターをそのまま figma motion で動かしてモーショングラフィックスの素材にする。線の太さをあとから統一できるので、複数人で作った素材の揃え直しが楽になる。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="figma のエージェントが作るベクターイラスト・アイコンが実用レベルに（11/5）：レイヤー分けされて、線は塗りでなくストローク。figma motion ですぐ動かせる  figma のエージェントが生成するベクターのイラストとアイコンが改善された。パーツごとに独立したレイヤーで直感的にグループ化され、線は塗りではなくストロークで描かれるので、線の太さや端の形を描き直さずに変えられる。手持ちのイラストを参照として渡せば、同じタッチでアイコンや部品をまとめて作れる。レイヤー構造がきれいなので、そのまま figma motion でアニメーションにできる。 動画の説明パートに入れるアイコンやイラストを、自社のタッチの見本を 1 枚渡して一式そろえる。できたベクターをそのまま figma motion で動かしてモーショングラフィックスの素材にする。線の太さをあとから統一できるので、複数人で作った素材の揃え直しが楽になる。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -182,7 +236,7 @@
         <span class="link">🔗 <a href="https://releasebot.io/updates/figma#vector-illustrations-20261105" target="_blank" rel="noopener">Figma（リリースノート・releasebot 経由）</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="音楽・音声" data-search="gemini 3.8 tts に「声のリミックス」（11/4）：既存の声に「もっと落ち着いて、低めに」と言葉で指示して、新しい声として保存できる  gemini api の読み上げ（gemini 3.8 flash tts）に voice remixing が入った。用意済みの声や自分で設計した声を、自然な言葉の指示で変えて、独立した新しい声として保存できる。保存した声の id を使えば、gemini 3.8 flash tts と flash-lite tts のどちらからでも同じ声で読み上げられる。api（post /v1beta/voices）のほか、google ai studio の画面上でも対話的にリミックスできる。 ナレーション用に「このブランドの声」を 1 つ作って保存しておけば、動画ごとに同じ声で原稿を読ませられる。既存の声を元に「少し若く」「ささやき気味に」と調整して、キャラクター別の声を増やす。まずは ai studio でコードなしに試せる。" style="border-left: 4px solid #1DB954;">
+    <div class="card past-item" data-cat="音楽・音声" data-search="gemini 3.8 tts に「声のリミックス」（11/4）：既存の声に「もっと落ち着いて、低めに」と言葉で指示して、新しい声として保存できる  gemini api の読み上げ（gemini 3.8 flash tts）に voice remixing が入った。用意済みの声や自分で設計した声を、自然な言葉の指示で変えて、独立した新しい声として保存できる。保存した声の id を使えば、gemini 3.8 flash tts と flash-lite tts のどちらからでも同じ声で読み上げられる。api（post /v1beta/voices）のほか、google ai studio の画面上でも対話的にリミックスできる。 ナレーション用に「このブランドの声」を 1 つ作って保存しておけば、動画ごとに同じ声で原稿を読ませられる。既存の声を元に「少し若く」「ささやき気味に」と調整して、キャラクター別の声を増やす。まずは ai studio でコードなしに試せる。" style="border-left: 4px solid #1DB954;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#1DB954">🎵 音楽・音声</span>
