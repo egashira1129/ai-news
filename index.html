@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">1件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">524件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">526件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,47 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (126)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (111)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (75)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (53)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (126)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (112)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (76)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (53)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="動画制作" data-search="instagram の動画編集アプリ「edits」に無料のmac版（11/5）：複数トラック・自動字幕・4k書き出し・透かしなし。設定でmcpを入れるとaiエージェントに粗編集を任せられる  instagram が capcut 対抗の動画編集アプリ edits のmac版を無料で公開。複数トラックのタイムライン、キーフレーム、カラーホイール・カーブ・lut、自動字幕（多言語・無制限）、著作権処理済みの音楽を備え、縦横とも4kまで透かしなしで書き出せる。設定から mcp（aiエージェントとつなぐ仕組み）を有効にすると、好きなエージェント（meta の muse など）が編集機能を操作でき、粗編集をaiに作らせてから手で仕上げられる。 縦型ショートやリールの下編集をmacで無料・透かしなしで回せる。mcp対応なので、aiエージェントに素材から粗編集を組ませ、人は仕上げだけ、という分担が試せる。スマホ版で保存した文字・音のスタイルも引き継がれる。※apple シリコン（m1以降）のmacのみ、windows版なし。スマホとmacで同じプロジェクトをまたぐ編集はまだできない" style="border-left: 4px solid #FF6B35;">
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="claude fable 5.2 公開：pro・teamでも週の枠の半分まで使える上位モデル  anthropicが新しい上位モデル「claude fable 5.2」を公開。100万トークンの文脈・最大12.8万トークン出力・常時の適応的思考に対応し、コーディング・推論・画像理解が向上。api料金は入力$8/出力$40（100万トークンあたり）と前の5.1より約2割安くなり、出力が最大2.5倍速い高速モードも追加。claude code では既定のfableモデルになった。 有料プラン（pro・teamの標準シート）なら追加契約なしで、週の利用上限の最大50%までアプリから使える。remotionの込み入った実装や長尺編集パイプラインの改修など、難しい作業だけfableに切り替えるのが使いどころ。claude code でもモデル選択から使える（github copilot にも同日追加）。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-09</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+      </div>
+      <h2>Claude Fable 5.2 公開：Pro・Teamでも週の枠の半分まで使える上位モデル</h2>
+      <p class="summary">Anthropicが新しい上位モデル「Claude Fable 5.2」を公開。100万トークンの文脈・最大12.8万トークン出力・常時の適応的思考に対応し、コーディング・推論・画像理解が向上。API料金は入力$8/出力$40（100万トークンあたり）と前の5.1より約2割安くなり、出力が最大2.5倍速い高速モードも追加。Claude Code では既定のFableモデルになった。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 有料プラン（Pro・Teamの標準シート）なら追加契約なしで、週の利用上限の最大50%までアプリから使える。Remotionの込み入った実装や長尺編集パイプラインの改修など、難しい作業だけFableに切り替えるのが使いどころ。Claude Code でもモデル選択から使える（GitHub Copilot にも同日追加）。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://releasebot.io/updates/anthropic#claude-fable-5-2-20261109" target="_blank" rel="noopener">Anthropic（Claude Developer Platform リリースノート）</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="bytedance「seedream 5.5」公開：100回編集しても崩れず、透明背景pngを直接生成  bytedanceの画像生成・編集モデル seedream 5.5 が公開。編集していない部分をピクセル単位で保ち、色ずれや劣化を抑えて同じ画像を100回以上直し続けられる。アルファチャンネル付き（透明・半透明）の画像を直接生成でき、光・素材・肌の質感や文字の描写も向上した。 サムネや広告バナーの素材を、切り抜き作業なしで透明背景のまま作れる。同じキャラや商品画像を何度も手直しする量産案件でも崩れにくい。今は dola と byteplus playground で試せる。higgsfield 等の取り込み状況は要確認。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-09</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>ByteDance「Seedream 5.5」公開：100回編集しても崩れず、透明背景PNGを直接生成</h2>
+      <p class="summary">ByteDanceの画像生成・編集モデル Seedream 5.5 が公開。編集していない部分をピクセル単位で保ち、色ずれや劣化を抑えて同じ画像を100回以上直し続けられる。アルファチャンネル付き（透明・半透明）の画像を直接生成でき、光・素材・肌の質感や文字の描写も向上した。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> サムネや広告バナーの素材を、切り抜き作業なしで透明背景のまま作れる。同じキャラや商品画像を何度も手直しする量産案件でも崩れにくい。今は Dola と BytePlus Playground で試せる。Higgsfield 等の取り込み状況は要確認。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5" target="_blank" rel="noopener">ByteDance Seed 公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="動画制作" data-search="instagram の動画編集アプリ「edits」に無料のmac版（11/5）：複数トラック・自動字幕・4k書き出し・透かしなし。設定でmcpを入れるとaiエージェントに粗編集を任せられる  instagram が capcut 対抗の動画編集アプリ edits のmac版を無料で公開。複数トラックのタイムライン、キーフレーム、カラーホイール・カーブ・lut、自動字幕（多言語・無制限）、著作権処理済みの音楽を備え、縦横とも4kまで透かしなしで書き出せる。設定から mcp（aiエージェントとつなぐ仕組み）を有効にすると、好きなエージェント（meta の muse など）が編集機能を操作でき、粗編集をaiに作らせてから手で仕上げられる。 縦型ショートやリールの下編集をmacで無料・透かしなしで回せる。mcp対応なので、aiエージェントに素材から粗編集を組ませ、人は仕上げだけ、という分担が試せる。スマホ版で保存した文字・音のスタイルも引き継がれる。※apple シリコン（m1以降）のmacのみ、windows版なし。スマホとmacで同じプロジェクトをまたぐ編集はまだできない" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
