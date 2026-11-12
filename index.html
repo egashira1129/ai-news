@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">8件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">534件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">4件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">538件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,83 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (129)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (114)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (79)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (53)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (130)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (114)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (81)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (54)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="動画制作" data-search="adobe premiere がタイムラインの中で動画・効果音・音楽を生成できるように（adobe max 2026）  premiere に「generative media tool」が入り、編集中のタイムラインから直接、動画クリップ・効果音・bgmを生成できる。新しいカラーグレーディング「color mode」、話者の声の被りを分ける「separate crosstalk」、音源ごとに分ける「separate sound source」も追加。動画から不要物を消して背景を埋める「generative remove」はベータ。 足りないインサートや効果音・bgmを別ツールで作って読み込む手間がなくなる。対談素材の声被りや雑音もpremiere内で分離できるので、長尺編集の下処理がかなり軽くなる。※adobe公式の『creative cloudの新機能は本日提供』という一般記述による（機能ごとの明記はなし）。" style="border-left: 4px solid #FF6B35;">
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="minimax「h3-image」公開（11/11）：4k画像を10秒切りで生成、参照画像は最大16枚。重みも公開  minimaxの新しい画像モデル。文章から生成・参照画像からの生成・画像の部分編集に対応し、4096×4096の4kを10秒未満で出す。参照画像は最大16枚まで入れられ、モデルの重みはhugging faceで公開。料金は同等サービスの5〜7割で、公開週は4k生成が半額。 キャラや商品の参照画像を何枚も入れて、同じ見た目のまま4kのカットを量産できる。hailuo ai からそのまま使えるので、広告バナーや動画の元絵づくりの試し打ちに。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-11</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>MiniMax「H3-Image」公開（11/11）：4K画像を10秒切りで生成、参照画像は最大16枚。重みも公開</h2>
+      <p class="summary">MiniMaxの新しい画像モデル。文章から生成・参照画像からの生成・画像の部分編集に対応し、4096×4096の4Kを10秒未満で出す。参照画像は最大16枚まで入れられ、モデルの重みはHugging Faceで公開。料金は同等サービスの5〜7割で、公開週は4K生成が半額。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> キャラや商品の参照画像を何枚も入れて、同じ見た目のまま4Kのカットを量産できる。Hailuo AI からそのまま使えるので、広告バナーや動画の元絵づくりの試し打ちに。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://www.minimax.io/blog/minimax-h3-image" target="_blank" rel="noopener">MiniMax公式</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="音楽・音声" data-search="elevenlabs「scribe v3」（11/10）：文字起こしの誤りが前の版より27%減、102言語。リアルタイム版は話者分けにも対応  elevenlabsの文字起こしモデルの新版。録音用のscribe v3は前の版より単語の誤りが27%少なく、102言語に対応し、話者の聞き分けも精度が上がった。リアルタイム用のscribe v3 liveは誤りが43%減り、初めて話者分けができるようになった。固有名詞などのキーワードを最大1,000語まで指定できる。 インタビューや対談の素材を入れて、話者付きの字幕の下書きを作る。商品名や人名をキーワードに登録しておけば、テロップの直しが減る。elevenlabsのアプリでは既定のモデルになっている。" style="border-left: 4px solid #1DB954;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#1DB954">🎵 音楽・音声</span>
+          <span class="date-badge">📅 2026-11-10</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>ElevenLabs「Scribe v3」（11/10）：文字起こしの誤りが前の版より27%減、102言語。リアルタイム版は話者分けにも対応</h2>
+      <p class="summary">ElevenLabsの文字起こしモデルの新版。録音用のScribe v3は前の版より単語の誤りが27%少なく、102言語に対応し、話者の聞き分けも精度が上がった。リアルタイム用のScribe v3 Liveは誤りが43%減り、初めて話者分けができるようになった。固有名詞などのキーワードを最大1,000語まで指定できる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> インタビューや対談の素材を入れて、話者付きの字幕の下書きを作る。商品名や人名をキーワードに登録しておけば、テロップの直しが減る。ElevenLabsのアプリでは既定のモデルになっている。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://elevenlabs.io/blog/scribe-v3" target="_blank" rel="noopener">ElevenLabs公式</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma motion に物理ばねと書き出し前のプレビュー（11/10）：ios・androidの動きをそのまま設計、lottieも書き出す前に確認  figma motionで、ios・android向けの物理ベースのばね（重さ・硬さ・減衰）を調整できるようになり、作ったばねはデザインシステムに保存して使い回せる。アニメのスタイルを適用前に自分のデザインの上で再生して比べられ、lottieで書き出す前の再生確認もできる。 uiアニメや動画用のモーション素材を、書き出して確かめる往復なしで詰められる。チームで決めたばねの動きを保存しておけば、外注・新人にも同じ動きをそのまま渡せる。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-10</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Figma Motion に物理ばねと書き出し前のプレビュー（11/10）：iOS・Androidの動きをそのまま設計、Lottieも書き出す前に確認</h2>
+      <p class="summary">Figma Motionで、iOS・Android向けの物理ベースのばね（重さ・硬さ・減衰）を調整できるようになり、作ったばねはデザインシステムに保存して使い回せる。アニメのスタイルを適用前に自分のデザインの上で再生して比べられ、Lottieで書き出す前の再生確認もできる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> UIアニメや動画用のモーション素材を、書き出して確かめる往復なしで詰められる。チームで決めたばねの動きを保存しておけば、外注・新人にも同じ動きをそのまま渡せる。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://www.figma.com/release-notes/#figma-motion-springs-20261110" target="_blank" rel="noopener">Figma公式リリースノート</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="動画制作" data-search="shot.video：スマホとpcを同期したマルチカメラにして、aiが最初のカット割りまでやる（product hunt 11/11）  手持ちのスマホをqrコードで読むだけ（アプリ不要）でカメラとしてつなぎ、pcと一緒に1ボタンで同期録画できる新ツール。録り終わるとaiがカメラの切り替え・画面のズーム・bロールの提案までした最初の編集を出す。無料枠あり、有料は月19ドルから。 対談・解説・商品紹介の撮影を、カメラを買い足さずに複数アングルで撮って、粗編集までを自動で済ませる。撮影の段取りと最初のカット割りの工数が減る。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-11</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Shot.video：スマホとPCを同期したマルチカメラにして、AIが最初のカット割りまでやる（Product Hunt 11/11）</h2>
+      <p class="summary">手持ちのスマホをQRコードで読むだけ（アプリ不要）でカメラとしてつなぎ、PCと一緒に1ボタンで同期録画できる新ツール。録り終わるとAIがカメラの切り替え・画面のズーム・Bロールの提案までした最初の編集を出す。無料枠あり、有料は月19ドルから。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 対談・解説・商品紹介の撮影を、カメラを買い足さずに複数アングルで撮って、粗編集までを自動で済ませる。撮影の段取りと最初のカット割りの工数が減る。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://shot.video/" target="_blank" rel="noopener">Product Hunt（11/11）・Shot.video公式</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="動画制作" data-search="adobe premiere がタイムラインの中で動画・効果音・音楽を生成できるように（adobe max 2026）  premiere に「generative media tool」が入り、編集中のタイムラインから直接、動画クリップ・効果音・bgmを生成できる。新しいカラーグレーディング「color mode」、話者の声の被りを分ける「separate crosstalk」、音源ごとに分ける「separate sound source」も追加。動画から不要物を消して背景を埋める「generative remove」はベータ。 足りないインサートや効果音・bgmを別ツールで作って読み込む手間がなくなる。対談素材の声被りや雑音もpremiere内で分離できるので、長尺編集の下処理がかなり軽くなる。※adobe公式の『creative cloudの新機能は本日提供』という一般記述による（機能ごとの明記はなし）。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -164,7 +236,7 @@
         <span class="link">🔗 <a href="https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools#premiere-20261110" target="_blank" rel="noopener">Adobe Newsroom</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield「ads studio」が動画広告を作れるように：チャットで長尺の広告まで  ads studio のチャット内エージェントが、アイデアか台本から動画広告（長尺も含む）を作るようになった。スタイルはマイクロドラマ・カートゥーン・シネマティック・クレイアニメなどから選べ、webサイトのurlからブランドキット（色・訴求・商品）を自動で作る。出演者はライブラリ・ai influencer・新規作成から選べる。 商品ページのurlを入れてスタイルとアバターを選ぶだけで、広告動画の叩き台が出る。マイクロドラマ型の広告案を数本まとめて作って比べる、といった使い方ができる。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="higgsfield「ads studio」が動画広告を作れるように：チャットで長尺の広告まで  ads studio のチャット内エージェントが、アイデアか台本から動画広告（長尺も含む）を作るようになった。スタイルはマイクロドラマ・カートゥーン・シネマティック・クレイアニメなどから選べ、webサイトのurlからブランドキット（色・訴求・商品）を自動で作る。出演者はライブラリ・ai influencer・新規作成から選べる。 商品ページのurlを入れてスタイルとアバターを選ぶだけで、広告動画の叩き台が出る。マイクロドラマ型の広告案を数本まとめて作って比べる、といった使い方ができる。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -182,7 +254,7 @@
         <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#ads-studio-video-ads-20261109" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="adobe「creative agent」が premiere・after effects・illustrator・indesign・frame.io に（ベータ）  言葉で頼むと複数の手順をまとめて進めるadobeのエージェントが、デスクトップの各アプリに入った。premiereでは全クリップへのエフェクト一括適用、マスクした被写体の追跡、シーン全体の色と露出の一括調整などを指示で実行できる。アプリ内のaiアシスタント機能はベータ。 「全カットに同じlutとテロップ位置を揃えて」のような繰り返し作業をエージェントに投げられる。frame.io でも使えるので、確認・修正のやり取りまで含めて時短できる。外部aiからアプリを操作するローカルmcp連携は2027年初頭のプライベートベータ予定で、まだ使えない。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="adobe「creative agent」が premiere・after effects・illustrator・indesign・frame.io に（ベータ）  言葉で頼むと複数の手順をまとめて進めるadobeのエージェントが、デスクトップの各アプリに入った。premiereでは全クリップへのエフェクト一括適用、マスクした被写体の追跡、シーン全体の色と露出の一括調整などを指示で実行できる。アプリ内のaiアシスタント機能はベータ。 「全カットに同じlutとテロップ位置を揃えて」のような繰り返し作業をエージェントに投げられる。frame.io でも使えるので、確認・修正のやり取りまで含めて時短できる。外部aiからアプリを操作するローカルmcp連携は2027年初頭のプライベートベータ予定で、まだ使えない。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -200,7 +272,7 @@
         <span class="link">🔗 <a href="https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity#creative-agent-20261110" target="_blank" rel="noopener">Adobe Newsroom</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="adobe firefly に「quick actions」と画像の部分編集が正式公開、ワークフローを組む「firefly graph」はベータ  サムネイル生成・物の除去・商品広告づくりなどを一発で回す「quick actions」と、画像内の文字を直す edit text・光を当て直す relight・retouch が正式公開。aiモデルとadobeのツールを繋いで自分用の量産ワークフローを作る「firefly graph」と、イラスト・アニメ・3d・印刷物を1枚で扱う「firefly design」はベータ。fireflyでは seedance 2.5・kling 4.0・gpt image 2.6・nano banana 2.1 なども選べる。 サムネや商品広告の量産は quick actions、決まった型の量産は firefly graph で組んで使い回すのが良さそう。生成画像の文字化けやライティングもfirefly内で直せる。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="adobe firefly に「quick actions」と画像の部分編集が正式公開、ワークフローを組む「firefly graph」はベータ  サムネイル生成・物の除去・商品広告づくりなどを一発で回す「quick actions」と、画像内の文字を直す edit text・光を当て直す relight・retouch が正式公開。aiモデルとadobeのツールを繋いで自分用の量産ワークフローを作る「firefly graph」と、イラスト・アニメ・3d・印刷物を1枚で扱う「firefly design」はベータ。fireflyでは seedance 2.5・kling 4.0・gpt image 2.6・nano banana 2.1 なども選べる。 サムネや商品広告の量産は quick actions、決まった型の量産は firefly graph で組んで使い回すのが良さそう。生成画像の文字化けやライティングもfirefly内で直せる。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -218,7 +290,7 @@
         <span class="link">🔗 <a href="https://news.adobe.com/news/2026/11/adobe-firefly-expands#quick-actions-graph-20261110" target="_blank" rel="noopener">Adobe Newsroom</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="photoshop「relight」で後から光を足せる、lightroom に「glow」とワンタップのシミ消し（adobe max 2026）  photoshop で写真の光を追加・調整できる relight が正式公開。プロンプトでの編集をスライダーで微調整できる generative restyle、関連する影や映り込みまで消す remove ツール、編集前後の比較も追加。lightroom には柔らかい光を足す glow（5種類）、ワンタップのシミ消し、テザー撮影の改善。目つぶりを別カットから直す open eyes はベータ。 撮影後のライティング修正や集合写真の目つぶり直しがかなり楽になる。テザー撮影の改善は物撮りの現場で効く。※relight以外は公式の一般記述（新機能は本日提供）による。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="photoshop「relight」で後から光を足せる、lightroom に「glow」とワンタップのシミ消し（adobe max 2026）  photoshop で写真の光を追加・調整できる relight が正式公開。プロンプトでの編集をスライダーで微調整できる generative restyle、関連する影や映り込みまで消す remove ツール、編集前後の比較も追加。lightroom には柔らかい光を足す glow（5種類）、ワンタップのシミ消し、テザー撮影の改善。目つぶりを別カットから直す open eyes はベータ。 撮影後のライティング修正や集合写真の目つぶり直しがかなり楽になる。テザー撮影の改善は物撮りの現場で効く。※relight以外は公式の一般記述（新機能は本日提供）による。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -236,7 +308,7 @@
         <span class="link">🔗 <a href="https://news.adobe.com/news/2026/11/adobe-transforms-creative-cloud-tools#photoshop-lightroom-20261110" target="_blank" rel="noopener">Adobe Newsroom</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="claude の中で canva などを開いて直接編集できるように、sheets・whiteboards も追加  対応アプリ（canva・asana・dropbox・monday.com・webflow・vercel など）を会話の横や全画面で開き、claude がその中のページやファイルを直接変更できるようになった（全プラン・順次公開）。有料プランには表計算の claude sheets とホワイトボードの claude whiteboards がベータで、データ分析の claude data が正式公開。 claude と相談しながら canva のデザインをその場で直してもらう、whiteboards で構成案や絵コンテの流れを図にする、といった使い方ができる。figma は対応準備中。" style="border-left: 4px solid #00C9A7;">
+    <div class="card past-item" data-cat="AIプラットフォーム" data-search="claude の中で canva などを開いて直接編集できるように、sheets・whiteboards も追加  対応アプリ（canva・asana・dropbox・monday.com・webflow・vercel など）を会話の横や全画面で開き、claude がその中のページやファイルを直接変更できるようになった（全プラン・順次公開）。有料プランには表計算の claude sheets とホワイトボードの claude whiteboards がベータで、データ分析の claude data が正式公開。 claude と相談しながら canva のデザインをその場で直してもらう、whiteboards で構成案や絵コンテの流れを図にする、といった使い方ができる。figma は対応準備中。" style="border-left: 4px solid #00C9A7;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
@@ -254,7 +326,7 @@
         <span class="link">🔗 <a href="https://claude.com/resources/articles/interactive-connectors-full-tool#interactive-connectors-20261110" target="_blank" rel="noopener">Claude</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="google「gemini 4 carbon」公開：仕事の自動化に強く、apiは期間限定で半額  google の新しいフロンティアモデル。cursorbench 4.0 や zapier の automationbench などで1位とし、同等のモデルよりタスクあたりのコストが2倍以上安いとうたう。gemini アプリと検索の ai mode では google ai ultra 加入者向けに順次公開。apiは11/30まで入力$2・出力$10（100万トークンあたり）で、それ以降は倍。github copilot（pro+以上）でも選べる。 remotion などのコード作業や、自動化ワークフローのエージェントに使える新しい選択肢。apiで試すなら安い11月中が狙い目。" style="border-left: 4px solid #00C9A7;">
+    <div class="card past-item" data-cat="AIプラットフォーム" data-search="google「gemini 4 carbon」公開：仕事の自動化に強く、apiは期間限定で半額  google の新しいフロンティアモデル。cursorbench 4.0 や zapier の automationbench などで1位とし、同等のモデルよりタスクあたりのコストが2倍以上安いとうたう。gemini アプリと検索の ai mode では google ai ultra 加入者向けに順次公開。apiは11/30まで入力$2・出力$10（100万トークンあたり）で、それ以降は倍。github copilot（pro+以上）でも選べる。 remotion などのコード作業や、自動化ワークフローのエージェントに使える新しい選択肢。apiで試すなら安い11月中が狙い目。" style="border-left: 4px solid #00C9A7;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
@@ -272,7 +344,7 @@
         <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/" target="_blank" rel="noopener">Google Blog</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="lottiefiles「lottie ai」：文章から編集できるベクターアニメを作れる  テキストから、色・形・サイズを後から変えられるベクターのアニメーションを生成する。ホバーやクリックの動きもプロンプトで足せる。svg・lottieの読み込みやラスター画像のベクター化にも対応し、dotlottie・lottie json・gif・mp4・htmlで書き出せる。mcpサーバーもある。無料で試せる。 動画内のアイコンアニメやローディング、uiの小さな動きを、手でキーフレームを打たずに作れる。mcp経由で claude code から呼べば remotion 素材づくりにも組み込める。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="lottiefiles「lottie ai」：文章から編集できるベクターアニメを作れる  テキストから、色・形・サイズを後から変えられるベクターのアニメーションを生成する。ホバーやクリックの動きもプロンプトで足せる。svg・lottieの読み込みやラスター画像のベクター化にも対応し、dotlottie・lottie json・gif・mp4・htmlで書き出せる。mcpサーバーもある。無料で試せる。 動画内のアイコンアニメやローディング、uiの小さな動きを、手でキーフレームを打たずに作れる。mcp経由で claude code から呼べば remotion 素材づくりにも組み込める。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
