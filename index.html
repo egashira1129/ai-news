@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">4件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">538件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">540件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,47 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (130)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (114)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (81)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (54)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (131)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (115)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (81)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (54)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="minimax「h3-image」公開（11/11）：4k画像を10秒切りで生成、参照画像は最大16枚。重みも公開  minimaxの新しい画像モデル。文章から生成・参照画像からの生成・画像の部分編集に対応し、4096×4096の4kを10秒未満で出す。参照画像は最大16枚まで入れられ、モデルの重みはhugging faceで公開。料金は同等サービスの5〜7割で、公開週は4k生成が半額。 キャラや商品の参照画像を何枚も入れて、同じ見た目のまま4kのカットを量産できる。hailuo ai からそのまま使えるので、広告バナーや動画の元絵づくりの試し打ちに。" style="border-left: 4px solid #9B59B6;">
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="google「gemini 4 hydrogen」公開（11/12）：無料のgeminiアプリと検索にも入った速い新モデル。3.8 flashより2.5倍速い  googleが速さ重視の新モデル gemini 4 hydrogen を公開。gemini 3.8 flash より2.5倍速く、コーディングやエージェント作業では上位モデルの argon に並ぶ評価。geminiアプリ（無料ユーザーは自動モデル選択経由）とgoogle検索で全世界に順次展開。apiは入力$1.50・出力$7.50（100万トークンあたり）。 無料のgeminiアプリでも回答が速く賢くなる。台本の叩き台・リサーチ・小さなスクリプト作成など、待ち時間が減る。開発ではantigravityの『orchestrator』でcarbonとhydrogenを自動で切り替え、クォータを約24%節約できる（pro/ultra）。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-12</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Google「Gemini 4 Hydrogen」公開（11/12）：無料のGeminiアプリと検索にも入った速い新モデル。3.8 Flashより2.5倍速い</h2>
+      <p class="summary">Googleが速さ重視の新モデル Gemini 4 Hydrogen を公開。Gemini 3.8 Flash より2.5倍速く、コーディングやエージェント作業では上位モデルの Argon に並ぶ評価。Geminiアプリ（無料ユーザーは自動モデル選択経由）とGoogle検索で全世界に順次展開。APIは入力$1.50・出力$7.50（100万トークンあたり）。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 無料のGeminiアプリでも回答が速く賢くなる。台本の叩き台・リサーチ・小さなスクリプト作成など、待ち時間が減る。開発ではAntigravityの『Orchestrator』でCarbonとHydrogenを自動で切り替え、クォータを約24%節約できる（Pro/Ultra）。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener">Google公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield の seedance 2.5 が4k出力に対応（11/11）：通常生成・動画の延長・下書きモードで4kが選べる  higgsfield で seedance 2.5 の画質設定に4kが追加された。標準の生成、extend video（動画の延長）、draft mode（下書きを4kで書き出し）で使え、長さは4〜30秒。米国では未提供。 seedance 2.5で作ったカットを、アップスケールを挟まずそのまま4kで納品・編集素材にできる。下書きで構図を詰めてから4k書き出し、という流れでクレジットの無駄打ちも減らせる。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-11</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield の Seedance 2.5 が4K出力に対応（11/11）：通常生成・動画の延長・下書きモードで4Kが選べる</h2>
+      <p class="summary">Higgsfield で Seedance 2.5 の画質設定に4Kが追加された。標準の生成、Extend Video（動画の延長）、Draft Mode（下書きを4Kで書き出し）で使え、長さは4〜30秒。米国では未提供。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Seedance 2.5で作ったカットを、アップスケールを挟まずそのまま4Kで納品・編集素材にできる。下書きで構図を詰めてから4K書き出し、という流れでクレジットの無駄打ちも減らせる。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#seedance-2-5-4k-20261111" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="画像・デザイン" data-search="minimax「h3-image」公開（11/11）：4k画像を10秒切りで生成、参照画像は最大16枚。重みも公開  minimaxの新しい画像モデル。文章から生成・参照画像からの生成・画像の部分編集に対応し、4096×4096の4kを10秒未満で出す。参照画像は最大16枚まで入れられ、モデルの重みはhugging faceで公開。料金は同等サービスの5〜7割で、公開週は4k生成が半額。 キャラや商品の参照画像を何枚も入れて、同じ見た目のまま4kのカットを量産できる。hailuo ai からそのまま使えるので、広告バナーや動画の元絵づくりの試し打ちに。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -164,7 +200,7 @@
         <span class="link">🔗 <a href="https://www.minimax.io/blog/minimax-h3-image" target="_blank" rel="noopener">MiniMax公式</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="音楽・音声" data-search="elevenlabs「scribe v3」（11/10）：文字起こしの誤りが前の版より27%減、102言語。リアルタイム版は話者分けにも対応  elevenlabsの文字起こしモデルの新版。録音用のscribe v3は前の版より単語の誤りが27%少なく、102言語に対応し、話者の聞き分けも精度が上がった。リアルタイム用のscribe v3 liveは誤りが43%減り、初めて話者分けができるようになった。固有名詞などのキーワードを最大1,000語まで指定できる。 インタビューや対談の素材を入れて、話者付きの字幕の下書きを作る。商品名や人名をキーワードに登録しておけば、テロップの直しが減る。elevenlabsのアプリでは既定のモデルになっている。" style="border-left: 4px solid #1DB954;">
+    <div class="card past-item" data-cat="音楽・音声" data-search="elevenlabs「scribe v3」（11/10）：文字起こしの誤りが前の版より27%減、102言語。リアルタイム版は話者分けにも対応  elevenlabsの文字起こしモデルの新版。録音用のscribe v3は前の版より単語の誤りが27%少なく、102言語に対応し、話者の聞き分けも精度が上がった。リアルタイム用のscribe v3 liveは誤りが43%減り、初めて話者分けができるようになった。固有名詞などのキーワードを最大1,000語まで指定できる。 インタビューや対談の素材を入れて、話者付きの字幕の下書きを作る。商品名や人名をキーワードに登録しておけば、テロップの直しが減る。elevenlabsのアプリでは既定のモデルになっている。" style="border-left: 4px solid #1DB954;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#1DB954">🎵 音楽・音声</span>
@@ -182,7 +218,7 @@
         <span class="link">🔗 <a href="https://elevenlabs.io/blog/scribe-v3" target="_blank" rel="noopener">ElevenLabs公式</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma motion に物理ばねと書き出し前のプレビュー（11/10）：ios・androidの動きをそのまま設計、lottieも書き出す前に確認  figma motionで、ios・android向けの物理ベースのばね（重さ・硬さ・減衰）を調整できるようになり、作ったばねはデザインシステムに保存して使い回せる。アニメのスタイルを適用前に自分のデザインの上で再生して比べられ、lottieで書き出す前の再生確認もできる。 uiアニメや動画用のモーション素材を、書き出して確かめる往復なしで詰められる。チームで決めたばねの動きを保存しておけば、外注・新人にも同じ動きをそのまま渡せる。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="figma motion に物理ばねと書き出し前のプレビュー（11/10）：ios・androidの動きをそのまま設計、lottieも書き出す前に確認  figma motionで、ios・android向けの物理ベースのばね（重さ・硬さ・減衰）を調整できるようになり、作ったばねはデザインシステムに保存して使い回せる。アニメのスタイルを適用前に自分のデザインの上で再生して比べられ、lottieで書き出す前の再生確認もできる。 uiアニメや動画用のモーション素材を、書き出して確かめる往復なしで詰められる。チームで決めたばねの動きを保存しておけば、外注・新人にも同じ動きをそのまま渡せる。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -200,7 +236,7 @@
         <span class="link">🔗 <a href="https://www.figma.com/release-notes/#figma-motion-springs-20261110" target="_blank" rel="noopener">Figma公式リリースノート</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="shot.video：スマホとpcを同期したマルチカメラにして、aiが最初のカット割りまでやる（product hunt 11/11）  手持ちのスマホをqrコードで読むだけ（アプリ不要）でカメラとしてつなぎ、pcと一緒に1ボタンで同期録画できる新ツール。録り終わるとaiがカメラの切り替え・画面のズーム・bロールの提案までした最初の編集を出す。無料枠あり、有料は月19ドルから。 対談・解説・商品紹介の撮影を、カメラを買い足さずに複数アングルで撮って、粗編集までを自動で済ませる。撮影の段取りと最初のカット割りの工数が減る。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="shot.video：スマホとpcを同期したマルチカメラにして、aiが最初のカット割りまでやる（product hunt 11/11）  手持ちのスマホをqrコードで読むだけ（アプリ不要）でカメラとしてつなぎ、pcと一緒に1ボタンで同期録画できる新ツール。録り終わるとaiがカメラの切り替え・画面のズーム・bロールの提案までした最初の編集を出す。無料枠あり、有料は月19ドルから。 対談・解説・商品紹介の撮影を、カメラを買い足さずに複数アングルで撮って、粗編集までを自動で済ませる。撮影の段取りと最初のカット割りの工数が減る。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
