@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">540件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">4件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">544件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,83 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (131)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (115)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (81)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (54)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (132)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (116)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (55)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="google「gemini 4 hydrogen」公開（11/12）：無料のgeminiアプリと検索にも入った速い新モデル。3.8 flashより2.5倍速い  googleが速さ重視の新モデル gemini 4 hydrogen を公開。gemini 3.8 flash より2.5倍速く、コーディングやエージェント作業では上位モデルの argon に並ぶ評価。geminiアプリ（無料ユーザーは自動モデル選択経由）とgoogle検索で全世界に順次展開。apiは入力$1.50・出力$7.50（100万トークンあたり）。 無料のgeminiアプリでも回答が速く賢くなる。台本の叩き台・リサーチ・小さなスクリプト作成など、待ち時間が減る。開発ではantigravityの『orchestrator』でcarbonとhydrogenを自動で切り替え、クォータを約24%節約できる（pro/ultra）。" style="border-left: 4px solid #00C9A7;">
+    <div class="card latest-item" data-cat="音楽・音声" data-search="suno「bridge」（11/13）：ableton live の横で動いて、ループした小節に合う楽器パートやボーカルをsunoで作ってそのまま置ける  sunoが、dawとつなぐ単体アプリ「bridge」をベータで公開。ableton live とならべて開くと、セッションを同期し、ループで指定した小節範囲に、テンポ・キー・ノリに合わせた新しい楽器パートやボーカルを生成してタイムラインに置ける。最初は mac の ableton live 12 だけで、ほかのdaw・osは今後。 動画のbgmをabletonで組んでいる時に、足りないパート（ベース・コーラス等）を、曲を書き出さずにその場でsunoに足させられる。尺合わせの差し替えも小節単位でできる。セッションファイルがsunoに上がる点は注意。" style="border-left: 4px solid #1DB954;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#1DB954">🎵 音楽・音声</span>
+          <span class="date-badge">📅 2026-11-13</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Suno「Bridge」（11/13）：Ableton Live の横で動いて、ループした小節に合う楽器パートやボーカルをSunoで作ってそのまま置ける</h2>
+      <p class="summary">Sunoが、DAWとつなぐ単体アプリ「Bridge」をベータで公開。Ableton Live とならべて開くと、セッションを同期し、ループで指定した小節範囲に、テンポ・キー・ノリに合わせた新しい楽器パートやボーカルを生成してタイムラインに置ける。最初は Mac の Ableton Live 12 だけで、ほかのDAW・OSは今後。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 動画のBGMをAbletonで組んでいる時に、足りないパート（ベース・コーラス等）を、曲を書き出さずにその場でSunoに足させられる。尺合わせの差し替えも小節単位でできる。セッションファイルがSunoに上がる点は注意。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://suno.com/blog/introducing-bridge" target="_blank" rel="noopener">Suno公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield に「seedance 2.5 flash」（11/12）：480p/720pの音付き下書きを安く速く。同じプロンプトで本番は1080p/4kへ  higgsfieldに、bytedance seedance 2.5 の軽量版「seedance 2.5 flash」が入った。本番の前に試すための下書き用で、480p/720p・音声付き。omni参照と最初/最後のフレーム指定に対応し、同じプロンプトと参照をそのまま seedance 2.5 の1080p/4k本番に回せる。米国では今は使えない。 カット割りや動きの当たりを flash で数本安く回し、決まったものだけ 2.5 の4kで本番生成すれば、クレジットと待ち時間を減らせる。先日入った 2.5 の4k対応と組み合わせる流れ。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-12</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield に「Seedance 2.5 Flash」（11/12）：480p/720pの音付き下書きを安く速く。同じプロンプトで本番は1080p/4Kへ</h2>
+      <p class="summary">Higgsfieldに、ByteDance Seedance 2.5 の軽量版「Seedance 2.5 Flash」が入った。本番の前に試すための下書き用で、480p/720p・音声付き。Omni参照と最初/最後のフレーム指定に対応し、同じプロンプトと参照をそのまま Seedance 2.5 の1080p/4K本番に回せる。米国では今は使えない。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> カット割りや動きの当たりを Flash で数本安く回し、決まったものだけ 2.5 の4Kで本番生成すれば、クレジットと待ち時間を減らせる。先日入った 2.5 の4K対応と組み合わせる流れ。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#seedance-2-5-flash" target="_blank" rel="noopener">Higgsfield changelog</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma に3d変形（11/12）：レイヤーをx・y・z軸で回してパースを付けられる。figma motion で動かし、cssやmcpでコードへ  figmaで、レイヤーに3d変形の効果を付けられるようになった。x・y・z軸の回転と奥行き（パース）の調整ができ、figma motion でアニメーションにできる。dev mode のcssコピーや figma mcp 経由で、コーディングエージェントにもそのまま渡せる。 カードがくるっと回る・画面が奥に倒れるといった動画のモーショングラフィックを、figmaの中で作って書き出せる。remotionなどのコードへcssで持っていく時の手間も減る。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-12</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Figma に3D変形（11/12）：レイヤーをX・Y・Z軸で回してパースを付けられる。Figma Motion で動かし、CSSやMCPでコードへ</h2>
+      <p class="summary">Figmaで、レイヤーに3D変形の効果を付けられるようになった。X・Y・Z軸の回転と奥行き（パース）の調整ができ、Figma Motion でアニメーションにできる。Dev Mode のCSSコピーや Figma MCP 経由で、コーディングエージェントにもそのまま渡せる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> カードがくるっと回る・画面が奥に倒れるといった動画のモーショングラフィックを、Figmaの中で作って書き出せる。RemotionなどのコードへCSSで持っていく時の手間も減る。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://releasebot.io/updates/figma#figma-3d-transforms-20261112" target="_blank" rel="noopener">Releasebot（Figma）</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="「claude meetings」ベータ（11/12）：claudeがgoogle meetに参加して、議事メモ・やること・その場の質問への回答まで  anthropicが、claudeを会議に呼べる「claude meetings」をteam・enterpriseプランでベータ公開（順次）。今はgoogle meetだけで、ほかの会議ツールは近日。会議中の質問に答え、終わったら議事メモとやることをまとめる。音声は保存せず、文字起こしと要約を残す。ベータ中は議事録・文字起こしが無料。 撮影や動画の打ち合わせにclaudeを入れておけば、決まったこと・修正指示・担当がそのまま残る。会議中に「前回の尺どうだった？」のような確認もその場で聞ける。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-12</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>「Claude Meetings」ベータ（11/12）：ClaudeがGoogle Meetに参加して、議事メモ・やること・その場の質問への回答まで</h2>
+      <p class="summary">Anthropicが、Claudeを会議に呼べる「Claude Meetings」をTeam・Enterpriseプランでベータ公開（順次）。今はGoogle Meetだけで、ほかの会議ツールは近日。会議中の質問に答え、終わったら議事メモとやることをまとめる。音声は保存せず、文字起こしと要約を残す。ベータ中は議事録・文字起こしが無料。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 撮影や動画の打ち合わせにClaudeを入れておけば、決まったこと・修正指示・担当がそのまま残る。会議中に「前回の尺どうだった？」のような確認もその場で聞ける。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#E67E22">🟠 ベータ版・順次公開</span>
+        <span class="link">🔗 <a href="https://claude.com/resources/articles/claude-meetings" target="_blank" rel="noopener">Claude公式</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="AIプラットフォーム" data-search="google「gemini 4 hydrogen」公開（11/12）：無料のgeminiアプリと検索にも入った速い新モデル。3.8 flashより2.5倍速い  googleが速さ重視の新モデル gemini 4 hydrogen を公開。gemini 3.8 flash より2.5倍速く、コーディングやエージェント作業では上位モデルの argon に並ぶ評価。geminiアプリ（無料ユーザーは自動モデル選択経由）とgoogle検索で全世界に順次展開。apiは入力$1.50・出力$7.50（100万トークンあたり）。 無料のgeminiアプリでも回答が速く賢くなる。台本の叩き台・リサーチ・小さなスクリプト作成など、待ち時間が減る。開発ではantigravityの『orchestrator』でcarbonとhydrogenを自動で切り替え、クォータを約24%節約できる（pro/ultra）。" style="border-left: 4px solid #00C9A7;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
@@ -164,7 +236,7 @@
         <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" target="_blank" rel="noopener">Google公式ブログ</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield の seedance 2.5 が4k出力に対応（11/11）：通常生成・動画の延長・下書きモードで4kが選べる  higgsfield で seedance 2.5 の画質設定に4kが追加された。標準の生成、extend video（動画の延長）、draft mode（下書きを4kで書き出し）で使え、長さは4〜30秒。米国では未提供。 seedance 2.5で作ったカットを、アップスケールを挟まずそのまま4kで納品・編集素材にできる。下書きで構図を詰めてから4k書き出し、という流れでクレジットの無駄打ちも減らせる。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="higgsfield の seedance 2.5 が4k出力に対応（11/11）：通常生成・動画の延長・下書きモードで4kが選べる  higgsfield で seedance 2.5 の画質設定に4kが追加された。標準の生成、extend video（動画の延長）、draft mode（下書きを4kで書き出し）で使え、長さは4〜30秒。米国では未提供。 seedance 2.5で作ったカットを、アップスケールを挟まずそのまま4kで納品・編集素材にできる。下書きで構図を詰めてから4k書き出し、という流れでクレジットの無駄打ちも減らせる。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
