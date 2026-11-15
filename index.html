@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">4件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">544件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">1件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">545件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,29 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (132)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (116)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (55)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (133)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (116)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (55)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="音楽・音声" data-search="suno「bridge」（11/13）：ableton live の横で動いて、ループした小節に合う楽器パートやボーカルをsunoで作ってそのまま置ける  sunoが、dawとつなぐ単体アプリ「bridge」をベータで公開。ableton live とならべて開くと、セッションを同期し、ループで指定した小節範囲に、テンポ・キー・ノリに合わせた新しい楽器パートやボーカルを生成してタイムラインに置ける。最初は mac の ableton live 12 だけで、ほかのdaw・osは今後。 動画のbgmをabletonで組んでいる時に、足りないパート（ベース・コーラス等）を、曲を書き出さずにその場でsunoに足させられる。尺合わせの差し替えも小節単位でできる。セッションファイルがsunoに上がる点は注意。" style="border-left: 4px solid #1DB954;">
+    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield「gpu」（11/13）：チャットから高性能gpuを時間借りして、blender・3d・動画の書き出しやlora持ち込みの生成をaiに任せられる  higgsfieldがクラウドgpuの時間貸しを始めた。b300やrtx 6000などを選び、higgsfield supercomputerの /gpu か、claude・chatgptからhiggsfield mcp経由で頼むと、aiが環境構築・ソフト導入・実行までチャット内で進める。hugging faceやcivitaiのloraリンクを貼れば、対応するベースモデルごと用意してくれる。 重いblenderレンダリングや3d・モーション処理を手元のmacで回さず外に投げられる。自前やcivitaiのloraを使った画像・動画生成も、環境構築なしでチャットから試せる。課金はgpu稼働時間の従量制で、承認前に料金が出る。既定で10分操作がないと自動停止するので、結果は停止前に書き出す。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-13</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield「GPU」（11/13）：チャットから高性能GPUを時間借りして、Blender・3D・動画の書き出しやLoRA持ち込みの生成をAIに任せられる</h2>
+      <p class="summary">HiggsfieldがクラウドGPUの時間貸しを始めた。B300やRTX 6000などを選び、Higgsfield Supercomputerの /gpu か、Claude・ChatGPTからHiggsfield MCP経由で頼むと、AIが環境構築・ソフト導入・実行までチャット内で進める。Hugging FaceやCivitaiのLoRAリンクを貼れば、対応するベースモデルごと用意してくれる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 重いBlenderレンダリングや3D・モーション処理を手元のMacで回さず外に投げられる。自前やCivitaiのLoRAを使った画像・動画生成も、環境構築なしでチャットから試せる。課金はGPU稼働時間の従量制で、承認前に料金が出る。既定で10分操作がないと自動停止するので、結果は停止前に書き出す。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#higgsfield-gpu-20261113" target="_blank" rel="noopener">Higgsfield changelog</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="音楽・音声" data-search="suno「bridge」（11/13）：ableton live の横で動いて、ループした小節に合う楽器パートやボーカルをsunoで作ってそのまま置ける  sunoが、dawとつなぐ単体アプリ「bridge」をベータで公開。ableton live とならべて開くと、セッションを同期し、ループで指定した小節範囲に、テンポ・キー・ノリに合わせた新しい楽器パートやボーカルを生成してタイムラインに置ける。最初は mac の ableton live 12 だけで、ほかのdaw・osは今後。 動画のbgmをabletonで組んでいる時に、足りないパート（ベース・コーラス等）を、曲を書き出さずにその場でsunoに足させられる。尺合わせの差し替えも小節単位でできる。セッションファイルがsunoに上がる点は注意。" style="border-left: 4px solid #1DB954;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#1DB954">🎵 音楽・音声</span>
@@ -164,7 +182,7 @@
         <span class="link">🔗 <a href="https://suno.com/blog/introducing-bridge" target="_blank" rel="noopener">Suno公式ブログ</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield に「seedance 2.5 flash」（11/12）：480p/720pの音付き下書きを安く速く。同じプロンプトで本番は1080p/4kへ  higgsfieldに、bytedance seedance 2.5 の軽量版「seedance 2.5 flash」が入った。本番の前に試すための下書き用で、480p/720p・音声付き。omni参照と最初/最後のフレーム指定に対応し、同じプロンプトと参照をそのまま seedance 2.5 の1080p/4k本番に回せる。米国では今は使えない。 カット割りや動きの当たりを flash で数本安く回し、決まったものだけ 2.5 の4kで本番生成すれば、クレジットと待ち時間を減らせる。先日入った 2.5 の4k対応と組み合わせる流れ。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="higgsfield に「seedance 2.5 flash」（11/12）：480p/720pの音付き下書きを安く速く。同じプロンプトで本番は1080p/4kへ  higgsfieldに、bytedance seedance 2.5 の軽量版「seedance 2.5 flash」が入った。本番の前に試すための下書き用で、480p/720p・音声付き。omni参照と最初/最後のフレーム指定に対応し、同じプロンプトと参照をそのまま seedance 2.5 の1080p/4k本番に回せる。米国では今は使えない。 カット割りや動きの当たりを flash で数本安く回し、決まったものだけ 2.5 の4kで本番生成すれば、クレジットと待ち時間を減らせる。先日入った 2.5 の4k対応と組み合わせる流れ。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -182,7 +200,7 @@
         <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#seedance-2-5-flash" target="_blank" rel="noopener">Higgsfield changelog</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma に3d変形（11/12）：レイヤーをx・y・z軸で回してパースを付けられる。figma motion で動かし、cssやmcpでコードへ  figmaで、レイヤーに3d変形の効果を付けられるようになった。x・y・z軸の回転と奥行き（パース）の調整ができ、figma motion でアニメーションにできる。dev mode のcssコピーや figma mcp 経由で、コーディングエージェントにもそのまま渡せる。 カードがくるっと回る・画面が奥に倒れるといった動画のモーショングラフィックを、figmaの中で作って書き出せる。remotionなどのコードへcssで持っていく時の手間も減る。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="figma に3d変形（11/12）：レイヤーをx・y・z軸で回してパースを付けられる。figma motion で動かし、cssやmcpでコードへ  figmaで、レイヤーに3d変形の効果を付けられるようになった。x・y・z軸の回転と奥行き（パース）の調整ができ、figma motion でアニメーションにできる。dev mode のcssコピーや figma mcp 経由で、コーディングエージェントにもそのまま渡せる。 カードがくるっと回る・画面が奥に倒れるといった動画のモーショングラフィックを、figmaの中で作って書き出せる。remotionなどのコードへcssで持っていく時の手間も減る。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -200,7 +218,7 @@
         <span class="link">🔗 <a href="https://releasebot.io/updates/figma#figma-3d-transforms-20261112" target="_blank" rel="noopener">Releasebot（Figma）</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="「claude meetings」ベータ（11/12）：claudeがgoogle meetに参加して、議事メモ・やること・その場の質問への回答まで  anthropicが、claudeを会議に呼べる「claude meetings」をteam・enterpriseプランでベータ公開（順次）。今はgoogle meetだけで、ほかの会議ツールは近日。会議中の質問に答え、終わったら議事メモとやることをまとめる。音声は保存せず、文字起こしと要約を残す。ベータ中は議事録・文字起こしが無料。 撮影や動画の打ち合わせにclaudeを入れておけば、決まったこと・修正指示・担当がそのまま残る。会議中に「前回の尺どうだった？」のような確認もその場で聞ける。" style="border-left: 4px solid #00C9A7;">
+    <div class="card past-item" data-cat="AIプラットフォーム" data-search="「claude meetings」ベータ（11/12）：claudeがgoogle meetに参加して、議事メモ・やること・その場の質問への回答まで  anthropicが、claudeを会議に呼べる「claude meetings」をteam・enterpriseプランでベータ公開（順次）。今はgoogle meetだけで、ほかの会議ツールは近日。会議中の質問に答え、終わったら議事メモとやることをまとめる。音声は保存せず、文字起こしと要約を残す。ベータ中は議事録・文字起こしが無料。 撮影や動画の打ち合わせにclaudeを入れておけば、決まったこと・修正指示・担当がそのまま残る。会議中に「前回の尺どうだった？」のような確認もその場で聞ける。" style="border-left: 4px solid #00C9A7;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
