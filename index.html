@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">1件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">545件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">3件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">548件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,65 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (133)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (116)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (55)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (18)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (134)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (117)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (72)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (55)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield「gpu」（11/13）：チャットから高性能gpuを時間借りして、blender・3d・動画の書き出しやlora持ち込みの生成をaiに任せられる  higgsfieldがクラウドgpuの時間貸しを始めた。b300やrtx 6000などを選び、higgsfield supercomputerの /gpu か、claude・chatgptからhiggsfield mcp経由で頼むと、aiが環境構築・ソフト導入・実行までチャット内で進める。hugging faceやcivitaiのloraリンクを貼れば、対応するベースモデルごと用意してくれる。 重いblenderレンダリングや3d・モーション処理を手元のmacで回さず外に投げられる。自前やcivitaiのloraを使った画像・動画生成も、環境構築なしでチャットから試せる。課金はgpu稼働時間の従量制で、承認前に料金が出る。既定で10分操作がないと自動停止するので、結果は停止前に書き出す。" style="border-left: 4px solid #FF6B35;">
+    <div class="card latest-item" data-cat="マルチモーダル" data-search="google「gemini notebook」（旧notebooklm）で、メモや資料から動くwebサイトを作れるように  gemini notebookのチャットで「make me a site」と頼むと、入れておいた資料・メモ・調査をもとに、操作できる解説サイト（年表・図解・データの一覧・進行管理表など）を作ってくれる。11/16からweb版で全世界に順次公開（18歳以上・workspaceも対象）。スマホアプリは近日対応。 企画書や台本の下調べ資料を入れて「この内容を見て分かる解説ページにして」と頼めば、チーム共有用の図解ページがすぐできる。動画の構成案や素材リストをまとめた進行ページ作りにも使える。" style="border-left: 4px solid #E74C3C;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#E74C3C">🚀 マルチモーダル</span>
+          <span class="date-badge">📅 2026-11-16</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Google「Gemini Notebook」（旧NotebookLM）で、メモや資料から動くWebサイトを作れるように</h2>
+      <p class="summary">Gemini Notebookのチャットで「make me a site」と頼むと、入れておいた資料・メモ・調査をもとに、操作できる解説サイト（年表・図解・データの一覧・進行管理表など）を作ってくれる。11/16からWeb版で全世界に順次公開（18歳以上・Workspaceも対象）。スマホアプリは近日対応。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 企画書や台本の下調べ資料を入れて「この内容を見て分かる解説ページにして」と頼めば、チーム共有用の図解ページがすぐできる。動画の構成案や素材リストをまとめた進行ページ作りにも使える。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/" target="_blank" rel="noopener">Google公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="alibaba「qwen4-max」が一般公開。100万トークン・画像も読める旗艦モデル  alibabaのqwenが新しい旗艦モデルqwen4-maxを一般公開。総2.4兆パラメータ（動くのは710億）、100万トークンの長い文脈、画像をそのまま読める。apiは100万トークンあたり入力1.50ドル・出力4.50ドルで、プレビュー版から平均の作業コストが62%下がったとしている。 長い台本・資料をまるごと読ませる作業を、海外大手より安い料金で回せる候補。プレビュー版（qwen4-max-preview）を使っていた人は11/25までに切り替えが必要。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-16</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Alibaba「Qwen4-Max」が一般公開。100万トークン・画像も読める旗艦モデル</h2>
+      <p class="summary">AlibabaのQwenが新しい旗艦モデルQwen4-Maxを一般公開。総2.4兆パラメータ（動くのは710億）、100万トークンの長い文脈、画像をそのまま読める。APIは100万トークンあたり入力1.50ドル・出力4.50ドルで、プレビュー版から平均の作業コストが62%下がったとしている。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 長い台本・資料をまるごと読ませる作業を、海外大手より安い料金で回せる候補。プレビュー版（qwen4-max-preview）を使っていた人は11/25までに切り替えが必要。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#E74C3C">🔴 開発者向け</span>
+        <span class="link">🔗 <a href="https://qwen.ai/blog?id=qwen4-max" target="_blank" rel="noopener">Qwen公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="動画制作" data-search="domoai「inkoai agent」公開。一文から動画を作り、生成前に台本・キャラ・カットを確認できる  domoaiが動画生成エージェントinkoai agentを公開（domoai.app/agent）。一文の指示から台本・キャラクター・カット割りまで段取りを組み、生成する前に内容を見せて承認を待つ。gpt image 2.5など15の画像・動画モデルを横断して使える。料金・対応言語は発表に書かれていない。 ショート動画の下書きを任せつつ、台本やカット割りの段階で直してから生成できるので、やり直しの生成回数を減らせる。商品リンクや写真から広告動画を作るskillsは今後追加予定。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-13</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>DomoAI「InkoAI Agent」公開。一文から動画を作り、生成前に台本・キャラ・カットを確認できる</h2>
+      <p class="summary">DomoAIが動画生成エージェントInkoAI Agentを公開（domoai.app/agent）。一文の指示から台本・キャラクター・カット割りまで段取りを組み、生成する前に内容を見せて承認を待つ。GPT Image 2.5など15の画像・動画モデルを横断して使える。料金・対応言語は発表に書かれていない。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> ショート動画の下書きを任せつつ、台本やカット割りの段階で直してから生成できるので、やり直しの生成回数を減らせる。商品リンクや写真から広告動画を作るSkillsは今後追加予定。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#3498DB">🔵 要登録（無料）</span>
+        <span class="link">🔗 <a href="https://www.prnewswire.com/news-releases/domoai-launches-inkoai-agent---one-sentence-to-ready-to-post-video-302938705.html" target="_blank" rel="noopener">PR Newswire（tech-noisy経由で確認）</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="動画制作" data-search="higgsfield「gpu」（11/13）：チャットから高性能gpuを時間借りして、blender・3d・動画の書き出しやlora持ち込みの生成をaiに任せられる  higgsfieldがクラウドgpuの時間貸しを始めた。b300やrtx 6000などを選び、higgsfield supercomputerの /gpu か、claude・chatgptからhiggsfield mcp経由で頼むと、aiが環境構築・ソフト導入・実行までチャット内で進める。hugging faceやcivitaiのloraリンクを貼れば、対応するベースモデルごと用意してくれる。 重いblenderレンダリングや3d・モーション処理を手元のmacで回さず外に投げられる。自前やcivitaiのloraを使った画像・動画生成も、環境構築なしでチャットから試せる。課金はgpu稼働時間の従量制で、承認前に料金が出る。既定で10分操作がないと自動停止するので、結果は停止前に書き出す。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
