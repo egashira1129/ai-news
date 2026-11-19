@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">6件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">553件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">555件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,47 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (137)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (117)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (138)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (118)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (82)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="音楽・音声" data-search="suno「visuals」：作った曲から、歌詞に口を合わせたミュージックビデオのクリップを作れる  sunoのライブラリの曲を visuals タブにドラッグすると、最大15秒の映像クリップができる。歌詞に合わせて口が動く映像、アルバムアート、写真から作る動画クリップに対応。できたクリップは延長・編集・言葉での作り直しもできる。 bgmやジングルを作ったら、そのまま縦動画用の映像まで suno の中で用意できる。歌ってる風のキャラ映像や、曲紹介のショート動画のたたき台に。" style="border-left: 4px solid #1DB954;">
+    <div class="card latest-item" data-cat="動画制作" data-search="google「genie 4」が ai ultra で使えるように：文章から歩き回れる3d世界を作り、作りながら天気やキャラを足せる。音も同時に出る  deepmind の世界モデル genie 4 が、google ai ultra 会員向けの project genie で使えるようになった（10/27 の研究発表のあと、11/18 に提供開始）。生成中にプロンプトで天候を変えたりキャラクターを足したりでき、環境音やキャラのセリフもリアルタイムで鳴る。旧モデル genie 3 も1回3分まで探索・360度パノラマ画像から世界を作る機能が追加。 絵コンテ前のロケハン代わりに、シーンの空間を歩き回ってカメラ位置を探せる。360度パノラマ写真から世界を起こせるので、実写の下見写真を元にした検討にも。ai pro 会員は順番待ちリスト登録のみ。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-18</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Google「Genie 4」が AI Ultra で使えるように：文章から歩き回れる3D世界を作り、作りながら天気やキャラを足せる。音も同時に出る</h2>
+      <p class="summary">DeepMind の世界モデル Genie 4 が、Google AI Ultra 会員向けの Project Genie で使えるようになった（10/27 の研究発表のあと、11/18 に提供開始）。生成中にプロンプトで天候を変えたりキャラクターを足したりでき、環境音やキャラのセリフもリアルタイムで鳴る。旧モデル Genie 3 も1回3分まで探索・360度パノラマ画像から世界を作る機能が追加。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 絵コンテ前のロケハン代わりに、シーンの空間を歩き回ってカメラ位置を探せる。360度パノラマ写真から世界を起こせるので、実写の下見写真を元にした検討にも。AI Pro 会員は順番待ちリスト登録のみ。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/" target="_blank" rel="noopener">Google 公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="google「gemini 4 neon」公開：carbon と hydrogen の間の速くて賢いモデル。geminiアプリ（pro/ultra）と api、copilot でも使える  gemini 4 ファミリーの中位モデル neon が公開。コーディング・業務の自動化・調べ物を速く終わらせる位置づけで、google 発表ではコーディングエージェントの指標で1位。api は入力100万トークン3ドル・出力15ドル、carbon より同じ作業の単価が約3割安い。 gemini アプリでは ai pro / ultra 会員がモデル選択から選べる。remotion などのコード作業や長い資料の整理を、carbon より安く速く回したい時の選択肢。github copilot（pro+ 以上）でも同日から選べる。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-18</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Google「Gemini 4 Neon」公開：Carbon と Hydrogen の間の速くて賢いモデル。Geminiアプリ（Pro/Ultra）と API、Copilot でも使える</h2>
+      <p class="summary">Gemini 4 ファミリーの中位モデル Neon が公開。コーディング・業務の自動化・調べ物を速く終わらせる位置づけで、Google 発表ではコーディングエージェントの指標で1位。API は入力100万トークン3ドル・出力15ドル、Carbon より同じ作業の単価が約3割安い。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Gemini アプリでは AI Pro / Ultra 会員がモデル選択から選べる。Remotion などのコード作業や長い資料の整理を、Carbon より安く速く回したい時の選択肢。GitHub Copilot（Pro+ 以上）でも同日から選べる。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/" target="_blank" rel="noopener">Google 公式ブログ</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="音楽・音声" data-search="suno「visuals」：作った曲から、歌詞に口を合わせたミュージックビデオのクリップを作れる  sunoのライブラリの曲を visuals タブにドラッグすると、最大15秒の映像クリップができる。歌詞に合わせて口が動く映像、アルバムアート、写真から作る動画クリップに対応。できたクリップは延長・編集・言葉での作り直しもできる。 bgmやジングルを作ったら、そのまま縦動画用の映像まで suno の中で用意できる。歌ってる風のキャラ映像や、曲紹介のショート動画のたたき台に。" style="border-left: 4px solid #1DB954;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#1DB954">🎵 音楽・音声</span>
@@ -164,7 +200,7 @@
         <span class="link">🔗 <a href="https://suno.com/blog/introducing-visuals" target="_blank" rel="noopener">Suno公式ブログ</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield「short drama studio」（11/16）：台本を入れると、同じキャラのままショートドラマを話数ごとに作れる  台本（pdf・docx・fdx・txt・md、10mbまで）を入れると、話数に分けてキャスト・ロケ地・小道具を作り、各話を生成する。縦横比6種・スタイル15種、480p下書き〜1080p。手順ごと・全部自動・チャットの3通りで作れる。 縦型ショートドラマ広告や連続もののsns動画を、台本1本から同じ顔のまま量産できる。claude からも higgsfield mcp で呼べる。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="higgsfield「short drama studio」（11/16）：台本を入れると、同じキャラのままショートドラマを話数ごとに作れる  台本（pdf・docx・fdx・txt・md、10mbまで）を入れると、話数に分けてキャスト・ロケ地・小道具を作り、各話を生成する。縦横比6種・スタイル15種、480p下書き〜1080p。手順ごと・全部自動・チャットの3通りで作れる。 縦型ショートドラマ広告や連続もののsns動画を、台本1本から同じ顔のまま量産できる。claude からも higgsfield mcp で呼べる。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -182,7 +218,7 @@
         <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#short-drama-studio-20261116" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="microsoft「mai image 2.7」が文章からの生成にも対応、軽量版flashと編集画面canvasも（11/17）  10月は編集だけのプレビューだった mai image 2.7 に、文章からの生成と軽量版 flash が加わった。canvas ではスケッチや文章から作り、一部を選んで差し替え・移動・画風変更ができる。透過背景に対応、画像編集の評価で1位、bing image creator の標準モデルに。 bing image creator や mai labs の canvas で、部分差し替えや透過素材づくりを無料で試せる。apiは1000枚あたり約35ドル（flashは約10ドル）。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="microsoft「mai image 2.7」が文章からの生成にも対応、軽量版flashと編集画面canvasも（11/17）  10月は編集だけのプレビューだった mai image 2.7 に、文章からの生成と軽量版 flash が加わった。canvas ではスケッチや文章から作り、一部を選んで差し替え・移動・画風変更ができる。透過背景に対応、画像編集の評価で1位、bing image creator の標準モデルに。 bing image creator や mai labs の canvas で、部分差し替えや透過素材づくりを無料で試せる。apiは1000枚あたり約35ドル（flashは約10ドル）。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -200,7 +236,7 @@
         <span class="link">🔗 <a href="https://microsoft.ai/news/introducing-mai-image-2-7/" target="_blank" rel="noopener">Microsoft AI</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="コーディング" data-search="openai「gpt-6.2 astra / sol」（11/17）：コードの見直しで見つける問題が増え、少ない手数で作業を終える新モデル  gpt-6.2 astra はエージェント的なコーディングとターミナル作業向け、sol は複雑な作業とコードレビュー向けで、gpt-6.1 sol の約2倍の実問題を見つけたという。apiは astra が入力$8／出力$40、sol が$2／$10（100万トークンあたり）。github copilot では即日使える。 copilot（pro+以上）や api でモデルを切り替えて、remotion やスクリプトのコードレビュー・修正に使える。安い sol は日常の作業向け。" style="border-left: 4px solid #0099FF;">
+    <div class="card past-item" data-cat="コーディング" data-search="openai「gpt-6.2 astra / sol」（11/17）：コードの見直しで見つける問題が増え、少ない手数で作業を終える新モデル  gpt-6.2 astra はエージェント的なコーディングとターミナル作業向け、sol は複雑な作業とコードレビュー向けで、gpt-6.1 sol の約2倍の実問題を見つけたという。apiは astra が入力$8／出力$40、sol が$2／$10（100万トークンあたり）。github copilot では即日使える。 copilot（pro+以上）や api でモデルを切り替えて、remotion やスクリプトのコードレビュー・修正に使える。安い sol は日常の作業向け。" style="border-left: 4px solid #0099FF;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#0099FF">💻 コーディング</span>
@@ -218,7 +254,7 @@
         <span class="link">🔗 <a href="https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available" target="_blank" rel="noopener">GitHub Changelog・llm-stats（OpenAI公式は403で未確認）</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="新ツール「vinc」（11/17）：脚本から絵コンテ・3dセットでのカメラ決め・動画化・効果音まで、ブラウザ1つで作る映画制作スタジオ  脚本かアイデアから、絵コンテ、3dセットでの立ち位置とカメラ・レンズ選び、キーフレーム生成、動画化、内蔵エディタでの効果音・bgm、書き出しまでを一つの画面で進められる。39種のモデルを切り替えて使う。月10ドルから、7日間の試用あり。 カメラ位置やレンズを決めてから生成するので、狙ったアングルのカットを揃えやすい。短編やcmの絵コンテ→プリビズに。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="新ツール「vinc」（11/17）：脚本から絵コンテ・3dセットでのカメラ決め・動画化・効果音まで、ブラウザ1つで作る映画制作スタジオ  脚本かアイデアから、絵コンテ、3dセットでの立ち位置とカメラ・レンズ選び、キーフレーム生成、動画化、内蔵エディタでの効果音・bgm、書き出しまでを一つの画面で進められる。39種のモデルを切り替えて使う。月10ドルから、7日間の試用あり。 カメラ位置やレンズを決めてから生成するので、狙ったアングルのカットを揃えやすい。短編やcmの絵コンテ→プリビズに。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -236,7 +272,7 @@
         <span class="link">🔗 <a href="https://vinc.ai/#producthunt-20261117" target="_blank" rel="noopener">Product Hunt（11/17 8位）・VINC公式</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="creatify「max」（11/17）：商品urlを渡すと、動画広告づくりからmeta・tiktokの配信設定、24時間の見張りまでやるエージェント  商品urlか短い指示から動画広告を作り、meta と tiktok のキャンペーンを組み、結果を24時間見て改善点を知らせる。承認するまで何も公開されない。無料枠あり。 広告動画の量産と出稿テストを一気通貫で回せる。まずは承認制のまま、作る広告の型の参考にするだけでも使える。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="creatify「max」（11/17）：商品urlを渡すと、動画広告づくりからmeta・tiktokの配信設定、24時間の見張りまでやるエージェント  商品urlか短い指示から動画広告を作り、meta と tiktok のキャンペーンを組み、結果を24時間見て改善点を知らせる。承認するまで何も公開されない。無料枠あり。 広告動画の量産と出稿テストを一気通貫で回せる。まずは承認制のまま、作る広告の型の参考にするだけでも使える。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
