@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">557件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">3件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">560件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,65 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (139)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (118)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (83)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (140)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (118)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (85)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="動画制作" data-search="heygen「avatar 6」（11/17）：写真1枚から本人そっくりの話す動画を2kで、長さの上限なし。台本の言葉に合わせて身ぶりも指定できる  heygenの新しいアバターモデル。写真1枚（あれば短い録画も）から、その人の見た目・話し方・動きを再現した話す動画を2k（2880×1620）で作れる。長さは音声に合わせて伸び、25分超の動画も1回で生成できる。台本の言葉の横に『ここで親指を立てる』『ここで横を指す』と書くと、その瞬間に身ぶりする。高品質版と速いturbo版があり、heygenの画面とapiで使える。 解説動画や教材のナレーター役を、撮影なしで本人アバターに話させる。台本に身ぶりの指示を書き込めるので、商品説明や広告のトーク動画で『ここを指す』『手を広げる』を狙って入れられる。長尺も切らずに1本で作れるので、講座動画の量産に向く。※本物と見分けられない率84.4%などの数字はheygen自身の測定。" style="border-left: 4px solid #FF6B35;">
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="kling「kling image 4.0」が higgsfield に（11/17）：1枚に2,000文字まで正確に入る文字入れ、最大8k、1回の指示で同じ雰囲気の画像を10枚まで  kling の新しい画像モデル kling image 4.0 が公開され、higgsfield でもすぐ使えるようになった。肌や素材の質感・自然光に強い写真風の人物や集合写真に加え、ポスター・図解・商品カードのような文字の多いデザインを、7言語・70以上のフォント（参考画像のフォントに寄せることも可）で作れる。2k標準、4k・8kも選べ、1回の指示で同じ画風のシリーズを最大10枚出せる。 higgsfield の image → kling image 4.0 → generate。広告バナーやサムネの文字入れ込みカット、商品カード、lp用の縦長ページの試作に。作った画像を kling 4.0 動画の最初・最後のコマに使えば、静止画から動画まで同じ見た目で量産できる。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-17</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Kling「Kling Image 4.0」が Higgsfield に（11/17）：1枚に2,000文字まで正確に入る文字入れ、最大8K、1回の指示で同じ雰囲気の画像を10枚まで</h2>
+      <p class="summary">Kling の新しい画像モデル Kling Image 4.0 が公開され、Higgsfield でもすぐ使えるようになった。肌や素材の質感・自然光に強い写真風の人物や集合写真に加え、ポスター・図解・商品カードのような文字の多いデザインを、7言語・70以上のフォント（参考画像のフォントに寄せることも可）で作れる。2K標準、4K・8Kも選べ、1回の指示で同じ画風のシリーズを最大10枚出せる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Higgsfield の Image → Kling Image 4.0 → Generate。広告バナーやサムネの文字入れ込みカット、商品カード、LP用の縦長ページの試作に。作った画像を Kling 4.0 動画の最初・最後のコマに使えば、静止画から動画まで同じ見た目で量産できる。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#kling-image-4-20261117" target="_blank" rel="noopener">Higgsfield Changelog / Kling AI</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="動画制作" data-search="google「genie 4」が gemini api で正式公開（11/19）：文章や画像から、キー操作で歩き回れる音付きの世界を自分のアプリに組み込める  先週 ai ultra 向けに出た世界生成モデル genie 4 が、gemini api（interactions api）で開発者向けに正式公開された。文章か16:9の参考画像から世界を作り、24fpsの映像とステレオ音声を配信しながら、wasd・矢印キーや途中の文章指示で動かせる。料金は動画出力がおよそ1秒0.1ドル（音込み）。 claude code 等で小さなwebページを作れば、ゲームのロケハンや動画の背景・空間の下見を、自分たちの操作画面から回せる。画面録画して実写やcgの絵コンテ・vコンテの素材にも使える。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-19</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Google「Genie 4」が Gemini API で正式公開（11/19）：文章や画像から、キー操作で歩き回れる音付きの世界を自分のアプリに組み込める</h2>
+      <p class="summary">先週 AI Ultra 向けに出た世界生成モデル Genie 4 が、Gemini API（Interactions API）で開発者向けに正式公開された。文章か16:9の参考画像から世界を作り、24fpsの映像とステレオ音声を配信しながら、WASD・矢印キーや途中の文章指示で動かせる。料金は動画出力がおよそ1秒0.1ドル（音込み）。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Claude Code 等で小さなWebページを作れば、ゲームのロケハンや動画の背景・空間の下見を、自分たちの操作画面から回せる。画面録画して実写やCGの絵コンテ・Vコンテの素材にも使える。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#E74C3C">🔴 開発者向け</span>
+        <span class="link">🔗 <a href="https://releasebot.io/updates/google#genie-4-api-20261119" target="_blank" rel="noopener">Gemini API リリースノート（releasebot）</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma の開発モードにエージェント（11/19）：デザインの中身を聞く・版を見比べる・コードの断片を出す・素材をまとめてダウンロード  figma の dev mode で、figma のエージェントに話しかけて作業できるようになった。デザインの意図や構造を質問したり、前の版との違いを比べたり、コードの断片を出してもらったり、画像やアイコンなどの素材のダウンロードリンクをまとめて出してもらえる。 デザイナーから実装担当・外注への受け渡しで、「どこが変わった？」「この素材全部ちょうだい」をエージェントに任せられる。lpやバナーの書き出し作業の手間が減る。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-19</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Figma の開発モードにエージェント（11/19）：デザインの中身を聞く・版を見比べる・コードの断片を出す・素材をまとめてダウンロード</h2>
+      <p class="summary">Figma の Dev Mode で、Figma のエージェントに話しかけて作業できるようになった。デザインの意図や構造を質問したり、前の版との違いを比べたり、コードの断片を出してもらったり、画像やアイコンなどの素材のダウンロードリンクをまとめて出してもらえる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> デザイナーから実装担当・外注への受け渡しで、「どこが変わった？」「この素材全部ちょうだい」をエージェントに任せられる。LPやバナーの書き出し作業の手間が減る。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://releasebot.io/updates/figma#dev-mode-agent-20261119" target="_blank" rel="noopener">Figma（releasebot）</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="動画制作" data-search="heygen「avatar 6」（11/17）：写真1枚から本人そっくりの話す動画を2kで、長さの上限なし。台本の言葉に合わせて身ぶりも指定できる  heygenの新しいアバターモデル。写真1枚（あれば短い録画も）から、その人の見た目・話し方・動きを再現した話す動画を2k（2880×1620）で作れる。長さは音声に合わせて伸び、25分超の動画も1回で生成できる。台本の言葉の横に『ここで親指を立てる』『ここで横を指す』と書くと、その瞬間に身ぶりする。高品質版と速いturbo版があり、heygenの画面とapiで使える。 解説動画や教材のナレーター役を、撮影なしで本人アバターに話させる。台本に身ぶりの指示を書き込めるので、商品説明や広告のトーク動画で『ここを指す』『手を広げる』を狙って入れられる。長尺も切らずに1本で作れるので、講座動画の量産に向く。※本物と見分けられない率84.4%などの数字はheygen自身の測定。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -164,7 +218,7 @@
         <span class="link">🔗 <a href="https://www.heygen.com/research/avatar-6-model" target="_blank" rel="noopener">HeyGen Research</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma の画像生成で、1回の指示から複数案を出せるように。最大3つのモデルを横に並べて見比べも（11/17）  figmaの「make image」「edit image」で、1つのモデルから2・4・6枚をまとめて出せるようになった。さらに、同じ指示を最大3つの画像モデルに同時に投げ、それぞれの解釈を横に並べて良いものを残せる。 バナーやサムネの素材画像を、指示を打ち直さずに一度に何案も出して選べる。どのモデルが今回の絵柄に合うかを、figmaの中で並べて比べられるので、別のサービスを行き来する手間が減る。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="figma の画像生成で、1回の指示から複数案を出せるように。最大3つのモデルを横に並べて見比べも（11/17）  figmaの「make image」「edit image」で、1つのモデルから2・4・6枚をまとめて出せるようになった。さらに、同じ指示を最大3つの画像モデルに同時に投げ、それぞれの解釈を横に並べて良いものを残せる。 バナーやサムネの素材画像を、指示を打ち直さずに一度に何案も出して選べる。どのモデルが今回の絵柄に合うかを、figmaの中で並べて比べられるので、別のサービスを行き来する手間が減る。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
