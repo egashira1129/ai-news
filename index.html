@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">3件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">560件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">4件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">564件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,83 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (140)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (118)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (85)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (142)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (119)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (86)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="kling「kling image 4.0」が higgsfield に（11/17）：1枚に2,000文字まで正確に入る文字入れ、最大8k、1回の指示で同じ雰囲気の画像を10枚まで  kling の新しい画像モデル kling image 4.0 が公開され、higgsfield でもすぐ使えるようになった。肌や素材の質感・自然光に強い写真風の人物や集合写真に加え、ポスター・図解・商品カードのような文字の多いデザインを、7言語・70以上のフォント（参考画像のフォントに寄せることも可）で作れる。2k標準、4k・8kも選べ、1回の指示で同じ画風のシリーズを最大10枚出せる。 higgsfield の image → kling image 4.0 → generate。広告バナーやサムネの文字入れ込みカット、商品カード、lp用の縦長ページの試作に。作った画像を kling 4.0 動画の最初・最後のコマに使えば、静止画から動画まで同じ見た目で量産できる。" style="border-left: 4px solid #9B59B6;">
+    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield「editing room」（11/20）：手持ちの動画の好きな場面だけ、人物・アングル・場所・カメラの動き・照明を差し替えられる  自分の動画を上げて場面を選ぶと、人物の差し替え・アングル変更・場所の変更・カメラ移動・ライティング変更・ブラシ編集を1か所でかけられる動画→動画エディタ。編集は選んだ場面だけに効き、重ねがけもできる。複数の編集を同時に走らせ、並べて見比べてから書き出せる。 撮り直しになりがちな「この1カットだけ照明が暗い」「別の人で同じ芝居を見たい」を編集で済ませる。広告の出演者違い・背景違いのバリエーションを、元の動画1本から量産する。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-20</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield「Editing Room」（11/20）：手持ちの動画の好きな場面だけ、人物・アングル・場所・カメラの動き・照明を差し替えられる</h2>
+      <p class="summary">自分の動画を上げて場面を選ぶと、人物の差し替え・アングル変更・場所の変更・カメラ移動・ライティング変更・ブラシ編集を1か所でかけられる動画→動画エディタ。編集は選んだ場面だけに効き、重ねがけもできる。複数の編集を同時に走らせ、並べて見比べてから書き出せる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 撮り直しになりがちな「この1カットだけ照明が暗い」「別の人で同じ芝居を見たい」を編集で済ませる。広告の出演者違い・背景違いのバリエーションを、元の動画1本から量産する。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#editing-room-20261120" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="ideogram「4.6」公開（11/19）：直したい所だけを何度も重ねて編集。参照画像5枚まで・ネイティブ4k。higgsfield でも使える  ideogram の新モデル。マスクで指定した部分だけを変え、前の編集の上にさらに重ねて直していける精密編集が売り。参照画像は最大5枚、出力は2kかアップスケールなしの4k。ideogram 本体とapiのほか、higgsfield にも同時に入った。 文字入りバナーやサムネで「ここの文字だけ」「商品の色だけ」を崩さず直す。higgsfield 上で他モデルと並べて使える。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-19</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Ideogram「4.6」公開（11/19）：直したい所だけを何度も重ねて編集。参照画像5枚まで・ネイティブ4K。Higgsfield でも使える</h2>
+      <p class="summary">Ideogram の新モデル。マスクで指定した部分だけを変え、前の編集の上にさらに重ねて直していける精密編集が売り。参照画像は最大5枚、出力は2Kかアップスケールなしの4K。Ideogram 本体とAPIのほか、Higgsfield にも同時に入った。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 文字入りバナーやサムネで「ここの文字だけ」「商品の色だけ」を崩さず直す。Higgsfield 上で他モデルと並べて使える。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#27AE60">🟢 無料枠あり</span>
+        <span class="link">🔗 <a href="https://ideogram.ai/models/4.6/" target="_blank" rel="noopener">Ideogram / Higgsfield Changelog</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="chatgpt「space」が plus にも全世界で（11/20）：動くページやスライドを作って、人と一緒に編集できる  これまで pro・business・enterprise 向けだった space が、18歳以上の plus 利用者に全世界で順次開放。対話しながらインタラクティブなページやプレゼンを作り、相手を招いて共同編集できる。つないだアプリの内容に合わせてページを自動で更新させることも可能。library の置き換え。 企画書・提案スライド・制作進行ページを chatgpt 上で作って、そのままチームと共有・共同編集する。plus の月額のままで使える。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-20</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>ChatGPT「Space」が Plus にも全世界で（11/20）：動くページやスライドを作って、人と一緒に編集できる</h2>
+      <p class="summary">これまで Pro・Business・Enterprise 向けだった Space が、18歳以上の Plus 利用者に全世界で順次開放。対話しながらインタラクティブなページやプレゼンを作り、相手を招いて共同編集できる。つないだアプリの内容に合わせてページを自動で更新させることも可能。Library の置き換え。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 企画書・提案スライド・制作進行ページを ChatGPT 上で作って、そのままチームと共有・共同編集する。Plus の月額のままで使える。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes#space-plus-20261120" target="_blank" rel="noopener">OpenAI ChatGPT Release Notes</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="動画制作" data-search="elevenlabs「ads engine」に動画広告の別バージョン作り（11/20）：本人の声で冒頭を作り直し、bgm・字幕も差し替え。tiktok にも接続  広告の多言語化ツール ads engine に、撮り直しなしで動画広告の別バージョンを作る機能が入った。冒頭のフックを元の話者の声のクローンと口の動き合わせで作り直し、新しいbgm（商用向けに権利処理済み）や効果音に差し替え、焼き込み字幕も消して翻訳し直せる。出稿先に tiktok が加わり google・meta・linkedin と合わせて4つ。 1本の広告動画から、冒頭違い・bgm違い・言語違いのabテスト用バリエーションを量産する。料金・プランは公式に記載がなく、申し込みは営業への問い合わせ。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-20</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>ElevenLabs「Ads Engine」に動画広告の別バージョン作り（11/20）：本人の声で冒頭を作り直し、BGM・字幕も差し替え。TikTok にも接続</h2>
+      <p class="summary">広告の多言語化ツール Ads Engine に、撮り直しなしで動画広告の別バージョンを作る機能が入った。冒頭のフックを元の話者の声のクローンと口の動き合わせで作り直し、新しいBGM（商用向けに権利処理済み）や効果音に差し替え、焼き込み字幕も消して翻訳し直せる。出稿先に TikTok が加わり Google・Meta・LinkedIn と合わせて4つ。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> 1本の広告動画から、冒頭違い・BGM違い・言語違いのABテスト用バリエーションを量産する。料金・プランは公式に記載がなく、申し込みは営業への問い合わせ。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://elevenlabs.io/blog/video-variants-localization-ads-engine" target="_blank" rel="noopener">ElevenLabs Blog</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="画像・デザイン" data-search="kling「kling image 4.0」が higgsfield に（11/17）：1枚に2,000文字まで正確に入る文字入れ、最大8k、1回の指示で同じ雰囲気の画像を10枚まで  kling の新しい画像モデル kling image 4.0 が公開され、higgsfield でもすぐ使えるようになった。肌や素材の質感・自然光に強い写真風の人物や集合写真に加え、ポスター・図解・商品カードのような文字の多いデザインを、7言語・70以上のフォント（参考画像のフォントに寄せることも可）で作れる。2k標準、4k・8kも選べ、1回の指示で同じ画風のシリーズを最大10枚出せる。 higgsfield の image → kling image 4.0 → generate。広告バナーやサムネの文字入れ込みカット、商品カード、lp用の縦長ページの試作に。作った画像を kling 4.0 動画の最初・最後のコマに使えば、静止画から動画まで同じ見た目で量産できる。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -164,7 +236,7 @@
         <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#kling-image-4-20261117" target="_blank" rel="noopener">Higgsfield Changelog / Kling AI</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="google「genie 4」が gemini api で正式公開（11/19）：文章や画像から、キー操作で歩き回れる音付きの世界を自分のアプリに組み込める  先週 ai ultra 向けに出た世界生成モデル genie 4 が、gemini api（interactions api）で開発者向けに正式公開された。文章か16:9の参考画像から世界を作り、24fpsの映像とステレオ音声を配信しながら、wasd・矢印キーや途中の文章指示で動かせる。料金は動画出力がおよそ1秒0.1ドル（音込み）。 claude code 等で小さなwebページを作れば、ゲームのロケハンや動画の背景・空間の下見を、自分たちの操作画面から回せる。画面録画して実写やcgの絵コンテ・vコンテの素材にも使える。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="google「genie 4」が gemini api で正式公開（11/19）：文章や画像から、キー操作で歩き回れる音付きの世界を自分のアプリに組み込める  先週 ai ultra 向けに出た世界生成モデル genie 4 が、gemini api（interactions api）で開発者向けに正式公開された。文章か16:9の参考画像から世界を作り、24fpsの映像とステレオ音声を配信しながら、wasd・矢印キーや途中の文章指示で動かせる。料金は動画出力がおよそ1秒0.1ドル（音込み）。 claude code 等で小さなwebページを作れば、ゲームのロケハンや動画の背景・空間の下見を、自分たちの操作画面から回せる。画面録画して実写やcgの絵コンテ・vコンテの素材にも使える。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -182,7 +254,7 @@
         <span class="link">🔗 <a href="https://releasebot.io/updates/google#genie-4-api-20261119" target="_blank" rel="noopener">Gemini API リリースノート（releasebot）</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma の開発モードにエージェント（11/19）：デザインの中身を聞く・版を見比べる・コードの断片を出す・素材をまとめてダウンロード  figma の dev mode で、figma のエージェントに話しかけて作業できるようになった。デザインの意図や構造を質問したり、前の版との違いを比べたり、コードの断片を出してもらったり、画像やアイコンなどの素材のダウンロードリンクをまとめて出してもらえる。 デザイナーから実装担当・外注への受け渡しで、「どこが変わった？」「この素材全部ちょうだい」をエージェントに任せられる。lpやバナーの書き出し作業の手間が減る。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="figma の開発モードにエージェント（11/19）：デザインの中身を聞く・版を見比べる・コードの断片を出す・素材をまとめてダウンロード  figma の dev mode で、figma のエージェントに話しかけて作業できるようになった。デザインの意図や構造を質問したり、前の版との違いを比べたり、コードの断片を出してもらったり、画像やアイコンなどの素材のダウンロードリンクをまとめて出してもらえる。 デザイナーから実装担当・外注への受け渡しで、「どこが変わった？」「この素材全部ちょうだい」をエージェントに任せられる。lpやバナーの書き出し作業の手間が減る。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
