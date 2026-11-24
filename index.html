@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">4件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">564件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">566件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,47 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (142)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (119)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (86)</label><label class="filter-btn" for="cat4">💻 コーディング (73)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (142)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (119)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (87)</label><label class="filter-btn" for="cat4">💻 コーディング (74)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield「editing room」（11/20）：手持ちの動画の好きな場面だけ、人物・アングル・場所・カメラの動き・照明を差し替えられる  自分の動画を上げて場面を選ぶと、人物の差し替え・アングル変更・場所の変更・カメラ移動・ライティング変更・ブラシ編集を1か所でかけられる動画→動画エディタ。編集は選んだ場面だけに効き、重ねがけもできる。複数の編集を同時に走らせ、並べて見比べてから書き出せる。 撮り直しになりがちな「この1カットだけ照明が暗い」「別の人で同じ芝居を見たい」を編集で済ませる。広告の出演者違い・背景違いのバリエーションを、元の動画1本から量産する。" style="border-left: 4px solid #FF6B35;">
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma のエージェントが figjam と slides で正式公開（11/23）：散らかったボードを仕様書にまとめ、そこからスライドまで作る  figma のエージェントが、figjam（ホワイトボード）と figma slides（スライド）でも使えるようになった。slack・asana・hex などの外部ツールや添付ファイルから情報を取り込んで、ボード・図・スライドを作る。散らかった figjam を要約と次のアクション付きの仕様書にまとめ、その構成とブランドのテンプレートからスライドを起こし、スライドの分割・要点の整理・発表者ノートの下書きまでやる。 ブレストや打ち合わせで付箋だらけになった figjam を、そのまま企画書の骨子とスライドの下書きに変えられる。提案資料や社内共有のスライドづくりの最初の一歩を任せる使い方が合う。ブランドのテンプレートを先に用意しておくと見た目が揃う。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-23</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Figma のエージェントが FigJam と Slides で正式公開（11/23）：散らかったボードを仕様書にまとめ、そこからスライドまで作る</h2>
+      <p class="summary">Figma のエージェントが、FigJam（ホワイトボード）と Figma Slides（スライド）でも使えるようになった。Slack・Asana・Hex などの外部ツールや添付ファイルから情報を取り込んで、ボード・図・スライドを作る。散らかった FigJam を要約と次のアクション付きの仕様書にまとめ、その構成とブランドのテンプレートからスライドを起こし、スライドの分割・要点の整理・発表者ノートの下書きまでやる。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> ブレストや打ち合わせで付箋だらけになった FigJam を、そのまま企画書の骨子とスライドの下書きに変えられる。提案資料や社内共有のスライドづくりの最初の一歩を任せる使い方が合う。ブランドのテンプレートを先に用意しておくと見た目が揃う。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/" target="_blank" rel="noopener">Figma Release Notes</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="コーディング" data-search="anthropic「claude ship」ベータ公開（11/23）：github の pr を、見直し・修正・承認までエージェントが進める  github のプルリクエストを、レビュー（code review・一般提供）、指摘の修正（pr steward・ベータ）、承認（claude approvals・ベータ）まで進めるエージェント群。マージしてよいかはチームが決めたポリシーで判断する。claude code からは /ship で始める。claude の team と enterprise プランが対象で、料金はトークン課金。 claude code でサイトや社内ツールを作っているチーム向け。人が見る前に、見直しと直しを済ませた状態まで持っていけるので、確認待ちで止まる時間が減る。承認まで任せる範囲はポリシーで絞れるので、まずはレビューと修正だけから試すのが安全。" style="border-left: 4px solid #0099FF;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#0099FF">💻 コーディング</span>
+          <span class="date-badge">📅 2026-11-23</span>
+        </span>
+        <span class="stars">⭐⭐⭐</span>
+      </div>
+      <h2>Anthropic「Claude Ship」ベータ公開（11/23）：GitHub の PR を、見直し・修正・承認までエージェントが進める</h2>
+      <p class="summary">GitHub のプルリクエストを、レビュー（Code Review・一般提供）、指摘の修正（PR Steward・ベータ）、承認（Claude Approvals・ベータ）まで進めるエージェント群。マージしてよいかはチームが決めたポリシーで判断する。Claude Code からは /ship で始める。Claude の Team と Enterprise プランが対象で、料金はトークン課金。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Claude Code でサイトや社内ツールを作っているチーム向け。人が見る前に、見直しと直しを済ませた状態まで持っていけるので、確認待ちで止まる時間が減る。承認まで任せる範囲はポリシーで絞れるので、まずはレビューと修正だけから試すのが安全。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://claude.com/resources/articles/introducing-claude-ship" target="_blank" rel="noopener">Anthropic（claude.com）／TechCrunch</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="動画制作" data-search="higgsfield「editing room」（11/20）：手持ちの動画の好きな場面だけ、人物・アングル・場所・カメラの動き・照明を差し替えられる  自分の動画を上げて場面を選ぶと、人物の差し替え・アングル変更・場所の変更・カメラ移動・ライティング変更・ブラシ編集を1か所でかけられる動画→動画エディタ。編集は選んだ場面だけに効き、重ねがけもできる。複数の編集を同時に走らせ、並べて見比べてから書き出せる。 撮り直しになりがちな「この1カットだけ照明が暗い」「別の人で同じ芝居を見たい」を編集で済ませる。広告の出演者違い・背景違いのバリエーションを、元の動画1本から量産する。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
@@ -164,7 +200,7 @@
         <span class="link">🔗 <a href="https://higgsfield.ai/creator-hub/changelog#editing-room-20261120" target="_blank" rel="noopener">Higgsfield Changelog</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="ideogram「4.6」公開（11/19）：直したい所だけを何度も重ねて編集。参照画像5枚まで・ネイティブ4k。higgsfield でも使える  ideogram の新モデル。マスクで指定した部分だけを変え、前の編集の上にさらに重ねて直していける精密編集が売り。参照画像は最大5枚、出力は2kかアップスケールなしの4k。ideogram 本体とapiのほか、higgsfield にも同時に入った。 文字入りバナーやサムネで「ここの文字だけ」「商品の色だけ」を崩さず直す。higgsfield 上で他モデルと並べて使える。" style="border-left: 4px solid #9B59B6;">
+    <div class="card past-item" data-cat="画像・デザイン" data-search="ideogram「4.6」公開（11/19）：直したい所だけを何度も重ねて編集。参照画像5枚まで・ネイティブ4k。higgsfield でも使える  ideogram の新モデル。マスクで指定した部分だけを変え、前の編集の上にさらに重ねて直していける精密編集が売り。参照画像は最大5枚、出力は2kかアップスケールなしの4k。ideogram 本体とapiのほか、higgsfield にも同時に入った。 文字入りバナーやサムネで「ここの文字だけ」「商品の色だけ」を崩さず直す。higgsfield 上で他モデルと並べて使える。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -182,7 +218,7 @@
         <span class="link">🔗 <a href="https://ideogram.ai/models/4.6/" target="_blank" rel="noopener">Ideogram / Higgsfield Changelog</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="chatgpt「space」が plus にも全世界で（11/20）：動くページやスライドを作って、人と一緒に編集できる  これまで pro・business・enterprise 向けだった space が、18歳以上の plus 利用者に全世界で順次開放。対話しながらインタラクティブなページやプレゼンを作り、相手を招いて共同編集できる。つないだアプリの内容に合わせてページを自動で更新させることも可能。library の置き換え。 企画書・提案スライド・制作進行ページを chatgpt 上で作って、そのままチームと共有・共同編集する。plus の月額のままで使える。" style="border-left: 4px solid #00C9A7;">
+    <div class="card past-item" data-cat="AIプラットフォーム" data-search="chatgpt「space」が plus にも全世界で（11/20）：動くページやスライドを作って、人と一緒に編集できる  これまで pro・business・enterprise 向けだった space が、18歳以上の plus 利用者に全世界で順次開放。対話しながらインタラクティブなページやプレゼンを作り、相手を招いて共同編集できる。つないだアプリの内容に合わせてページを自動で更新させることも可能。library の置き換え。 企画書・提案スライド・制作進行ページを chatgpt 上で作って、そのままチームと共有・共同編集する。plus の月額のままで使える。" style="border-left: 4px solid #00C9A7;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
@@ -200,7 +236,7 @@
         <span class="link">🔗 <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes#space-plus-20261120" target="_blank" rel="noopener">OpenAI ChatGPT Release Notes</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="動画制作" data-search="elevenlabs「ads engine」に動画広告の別バージョン作り（11/20）：本人の声で冒頭を作り直し、bgm・字幕も差し替え。tiktok にも接続  広告の多言語化ツール ads engine に、撮り直しなしで動画広告の別バージョンを作る機能が入った。冒頭のフックを元の話者の声のクローンと口の動き合わせで作り直し、新しいbgm（商用向けに権利処理済み）や効果音に差し替え、焼き込み字幕も消して翻訳し直せる。出稿先に tiktok が加わり google・meta・linkedin と合わせて4つ。 1本の広告動画から、冒頭違い・bgm違い・言語違いのabテスト用バリエーションを量産する。料金・プランは公式に記載がなく、申し込みは営業への問い合わせ。" style="border-left: 4px solid #FF6B35;">
+    <div class="card past-item" data-cat="動画制作" data-search="elevenlabs「ads engine」に動画広告の別バージョン作り（11/20）：本人の声で冒頭を作り直し、bgm・字幕も差し替え。tiktok にも接続  広告の多言語化ツール ads engine に、撮り直しなしで動画広告の別バージョンを作る機能が入った。冒頭のフックを元の話者の声のクローンと口の動き合わせで作り直し、新しいbgm（商用向けに権利処理済み）や効果音に差し替え、焼き込み字幕も消して翻訳し直せる。出稿先に tiktok が加わり google・meta・linkedin と合わせて4つ。 1本の広告動画から、冒頭違い・bgm違い・言語違いのabテスト用バリエーションを量産する。料金・プランは公式に記載がなく、申し込みは営業への問い合わせ。" style="border-left: 4px solid #FF6B35;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
