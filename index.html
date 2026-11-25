@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">566件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">1件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">567件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,29 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (142)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (119)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (87)</label><label class="filter-btn" for="cat4">💻 コーディング (74)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (142)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (120)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (87)</label><label class="filter-btn" for="cat4">💻 コーディング (74)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="画像・デザイン" data-search="figma のエージェントが figjam と slides で正式公開（11/23）：散らかったボードを仕様書にまとめ、そこからスライドまで作る  figma のエージェントが、figjam（ホワイトボード）と figma slides（スライド）でも使えるようになった。slack・asana・hex などの外部ツールや添付ファイルから情報を取り込んで、ボード・図・スライドを作る。散らかった figjam を要約と次のアクション付きの仕様書にまとめ、その構成とブランドのテンプレートからスライドを起こし、スライドの分割・要点の整理・発表者ノートの下書きまでやる。 ブレストや打ち合わせで付箋だらけになった figjam を、そのまま企画書の骨子とスライドの下書きに変えられる。提案資料や社内共有のスライドづくりの最初の一歩を任せる使い方が合う。ブランドのテンプレートを先に用意しておくと見た目が揃う。" style="border-left: 4px solid #9B59B6;">
+    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="claude で作ったアーティファクトを、mac・windows のアプリとして入れられるように（11/24・ベータ）。無料プランも対象  claude が作ったアーティファクト（動くページや小さな道具）を、パソコンのアプリとして入れられるようになった。専用のウィンドウとアイコンが付き、ほかのアプリと同じように起動できる。通知・ショートカット・メニューバー常駐なども、許可すれば使える。free・pro・max・ultra・team・enterprise に順次公開中（enterprise は管理者が有効にしてから）。 mac / windows 版の claude（6.28899.0 以降）でアーティファクトを開き、題名のメニューか右クリックから「install as app」→「install」。文字数カウンター・絵コンテの整理表・素材の命名ルール変換など、チームで使う小道具を claude に作らせて、そのままアプリとして置いておける。注意：「パソコン全体へのアクセス」を許可したアプリは、ファイルの読み書き・削除やプログラムの実行ができる。anthropic は中身を審査しないので、人からもらったアプリには許可しないこと。web・スマホ・linux では使えない。" style="border-left: 4px solid #00C9A7;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
+          <span class="date-badge">📅 2026-11-24</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Claude で作ったアーティファクトを、Mac・Windows のアプリとして入れられるように（11/24・ベータ）。無料プランも対象</h2>
+      <p class="summary">Claude が作ったアーティファクト（動くページや小さな道具）を、パソコンのアプリとして入れられるようになった。専用のウィンドウとアイコンが付き、ほかのアプリと同じように起動できる。通知・ショートカット・メニューバー常駐なども、許可すれば使える。Free・Pro・Max・Ultra・Team・Enterprise に順次公開中（Enterprise は管理者が有効にしてから）。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Mac / Windows 版の Claude（6.28899.0 以降）でアーティファクトを開き、題名のメニューか右クリックから「Install as app」→「Install」。文字数カウンター・絵コンテの整理表・素材の命名ルール変換など、チームで使う小道具を Claude に作らせて、そのままアプリとして置いておける。注意：「パソコン全体へのアクセス」を許可したアプリは、ファイルの読み書き・削除やプログラムの実行ができる。Anthropic は中身を審査しないので、人からもらったアプリには許可しないこと。Web・スマホ・Linux では使えない。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#E67E22">🟠 ベータ版・順次公開</span>
+        <span class="link">🔗 <a href="https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app" target="_blank" rel="noopener">Anthropic 公式ヘルプ・リリースノート</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="画像・デザイン" data-search="figma のエージェントが figjam と slides で正式公開（11/23）：散らかったボードを仕様書にまとめ、そこからスライドまで作る  figma のエージェントが、figjam（ホワイトボード）と figma slides（スライド）でも使えるようになった。slack・asana・hex などの外部ツールや添付ファイルから情報を取り込んで、ボード・図・スライドを作る。散らかった figjam を要約と次のアクション付きの仕様書にまとめ、その構成とブランドのテンプレートからスライドを起こし、スライドの分割・要点の整理・発表者ノートの下書きまでやる。 ブレストや打ち合わせで付箋だらけになった figjam を、そのまま企画書の骨子とスライドの下書きに変えられる。提案資料や社内共有のスライドづくりの最初の一歩を任せる使い方が合う。ブランドのテンプレートを先に用意しておくと見た目が揃う。" style="border-left: 4px solid #9B59B6;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
@@ -164,7 +182,7 @@
         <span class="link">🔗 <a href="https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/" target="_blank" rel="noopener">Figma Release Notes</a></span>
       </div>
     </div>
-    <div class="card latest-item" data-cat="コーディング" data-search="anthropic「claude ship」ベータ公開（11/23）：github の pr を、見直し・修正・承認までエージェントが進める  github のプルリクエストを、レビュー（code review・一般提供）、指摘の修正（pr steward・ベータ）、承認（claude approvals・ベータ）まで進めるエージェント群。マージしてよいかはチームが決めたポリシーで判断する。claude code からは /ship で始める。claude の team と enterprise プランが対象で、料金はトークン課金。 claude code でサイトや社内ツールを作っているチーム向け。人が見る前に、見直しと直しを済ませた状態まで持っていけるので、確認待ちで止まる時間が減る。承認まで任せる範囲はポリシーで絞れるので、まずはレビューと修正だけから試すのが安全。" style="border-left: 4px solid #0099FF;">
+    <div class="card past-item" data-cat="コーディング" data-search="anthropic「claude ship」ベータ公開（11/23）：github の pr を、見直し・修正・承認までエージェントが進める  github のプルリクエストを、レビュー（code review・一般提供）、指摘の修正（pr steward・ベータ）、承認（claude approvals・ベータ）まで進めるエージェント群。マージしてよいかはチームが決めたポリシーで判断する。claude code からは /ship で始める。claude の team と enterprise プランが対象で、料金はトークン課金。 claude code でサイトや社内ツールを作っているチーム向け。人が見る前に、見直しと直しを済ませた状態まで持っていけるので、確認待ちで止まる時間が減る。承認まで任せる範囲はポリシーで絞れるので、まずはレビューと修正だけから試すのが安全。" style="border-left: 4px solid #0099FF;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#0099FF">💻 コーディング</span>
