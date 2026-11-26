@@ -133,8 +133,8 @@
 <input type="radio" name="tab" id="tabArchive" class="switch">
 <input type="radio" name="cat" id="cat0" class="switch" value="" checked><input type="radio" name="cat" id="cat1" class="switch" value="動画制作"><input type="radio" name="cat" id="cat2" class="switch" value="AIプラットフォーム"><input type="radio" name="cat" id="cat3" class="switch" value="画像・デザイン"><input type="radio" name="cat" id="cat4" class="switch" value="コーディング"><input type="radio" name="cat" id="cat5" class="switch" value="ワークフロー自動化"><input type="radio" name="cat" id="cat6" class="switch" value="音楽・音声"><input type="radio" name="cat" id="cat7" class="switch" value="マルチモーダル"><input type="radio" name="cat" id="cat8" class="switch" value="開発者向け">
 <div class="tabs">
-  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">1件</span></label>
-  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">567件</span></label>
+  <label class="tab tab-latest" for="tabLatest">🆕 最新<span class="tab-count">2件</span></label>
+  <label class="tab tab-archive" for="tabArchive">🔍 検索・過去の蓄積<span class="tab-count">569件</span></label>
 </div>
 
 <div class="controls" id="controls">
@@ -142,11 +142,47 @@
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="🔍 キーワードで検索（例: Sora, 動画生成, 無料）">
   </div>
-  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (142)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (120)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (87)</label><label class="filter-btn" for="cat4">💻 コーディング (74)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
+  <div class="filters" id="filterBtns"><label class="filter-btn" for="cat0">すべて</label><label class="filter-btn" for="cat1">🎬 動画制作 (143)</label><label class="filter-btn" for="cat2">🧠 AIプラットフォーム (120)</label><label class="filter-btn" for="cat3">🎨 画像・デザイン (88)</label><label class="filter-btn" for="cat4">💻 コーディング (74)</label><label class="filter-btn" for="cat5">⚡ ワークフロー自動化 (68)</label><label class="filter-btn" for="cat6">🎵 音楽・音声 (56)</label><label class="filter-btn" for="cat7">🚀 マルチモーダル (19)</label><label class="filter-btn" for="cat8"> 開発者向け (1)</label></div>
 </div>
 <div class="result-count" id="resultCount"></div>
 <div id="cardContainer">
-    <div class="card latest-item" data-cat="AIプラットフォーム" data-search="claude で作ったアーティファクトを、mac・windows のアプリとして入れられるように（11/24・ベータ）。無料プランも対象  claude が作ったアーティファクト（動くページや小さな道具）を、パソコンのアプリとして入れられるようになった。専用のウィンドウとアイコンが付き、ほかのアプリと同じように起動できる。通知・ショートカット・メニューバー常駐なども、許可すれば使える。free・pro・max・ultra・team・enterprise に順次公開中（enterprise は管理者が有効にしてから）。 mac / windows 版の claude（6.28899.0 以降）でアーティファクトを開き、題名のメニューか右クリックから「install as app」→「install」。文字数カウンター・絵コンテの整理表・素材の命名ルール変換など、チームで使う小道具を claude に作らせて、そのままアプリとして置いておける。注意：「パソコン全体へのアクセス」を許可したアプリは、ファイルの読み書き・削除やプログラムの実行ができる。anthropic は中身を審査しないので、人からもらったアプリには許可しないこと。web・スマホ・linux では使えない。" style="border-left: 4px solid #00C9A7;">
+    <div class="card latest-item" data-cat="動画制作" data-search="higgsfield に動画モデル「magi-2」が入った（11/24）：最長30秒・1080pを音付きで一発生成。画像・動画・音声を合わせて20個まで参照できる  sand.ai の新しい動画モデル magi-2 が higgsfield で使えるようになった。4〜30秒・1080p・25fps の映像を、口の動きに合った台詞・効果音・環境音・音楽つきで同時に生成する。参照は画像10枚・動画5本・音声5本まで、開始フレームと終了フレームの指定、できた動画を言葉で部分的に直す編集にも対応。縦横比は 16:9／9:16 など6種類。 higgsfield の video → create video → model で magi-2 を選ぶ。1本で30秒まで作れるので、短いクリップをつなぐ手間が減る。人物・商品・声の参照をまとめて渡して、同じ見た目と声のまま音付きの広告や解説の素材を作るのに向く。料金は1秒2.5クレジット（10秒で25、30秒で75クレジット・11/25時点の higgsfield の記事による）。720p は無く1080pのみ。" style="border-left: 4px solid #FF6B35;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#FF6B35">🎬 動画制作</span>
+          <span class="date-badge">📅 2026-11-24</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐⭐</span>
+      </div>
+      <h2>Higgsfield に動画モデル「MAGI-2」が入った（11/24）：最長30秒・1080pを音付きで一発生成。画像・動画・音声を合わせて20個まで参照できる</h2>
+      <p class="summary">Sand.ai の新しい動画モデル MAGI-2 が Higgsfield で使えるようになった。4〜30秒・1080p・25fps の映像を、口の動きに合った台詞・効果音・環境音・音楽つきで同時に生成する。参照は画像10枚・動画5本・音声5本まで、開始フレームと終了フレームの指定、できた動画を言葉で部分的に直す編集にも対応。縦横比は 16:9／9:16 など6種類。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Higgsfield の Video → Create Video → Model で MAGI-2 を選ぶ。1本で30秒まで作れるので、短いクリップをつなぐ手間が減る。人物・商品・声の参照をまとめて渡して、同じ見た目と声のまま音付きの広告や解説の素材を作るのに向く。料金は1秒2.5クレジット（10秒で25、30秒で75クレジット・11/25時点の Higgsfield の記事による）。720p は無く1080pのみ。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://higgsfield.ai/blog/higgsfield-magi-2#magi-2-20261124" target="_blank" rel="noopener">Higgsfield / Sand.ai</a></span>
+      </div>
+    </div>
+    <div class="card latest-item" data-cat="画像・デザイン" data-search="midjourney「niji v8」公開（11/24）：アニメ絵の新モデル。同じキャラを保ったまま直せる専用の編集モデル付きで、niji で一番速い  midjourney のアニメ・イラスト向けモデルの新版 niji v8 が公開された。指示どおりに描く正確さと絵のまとまりが上がり、キャラクターを同じ見た目のまま保てる。専用の編集モデルが付き、言葉での直し・参照画像4枚まで・一部の描き直し・外側の描き足しができる。生成は niji で最速。 discord ならプロンプトの末尾に --niji 8、web なら版の選択で niji 8 を選ぶ。キャラクターを固定して表情や服、背景だけ変えた差分を作れるので、アニメ調のサムネ・挿絵・キャラ素材の量産に使える。編集モデルはタイル生成と remix には非対応。料金の変更や hd 出力の大きさは発表に書かれていない。" style="border-left: 4px solid #9B59B6;">
+      <div class="card-header">
+        <span>
+          <span class="badge" style="background:#9B59B6">🎨 画像・デザイン</span>
+          <span class="date-badge">📅 2026-11-24</span>
+        </span>
+        <span class="stars">⭐⭐⭐⭐</span>
+      </div>
+      <h2>Midjourney「Niji V8」公開（11/24）：アニメ絵の新モデル。同じキャラを保ったまま直せる専用の編集モデル付きで、Niji で一番速い</h2>
+      <p class="summary">Midjourney のアニメ・イラスト向けモデルの新版 Niji V8 が公開された。指示どおりに描く正確さと絵のまとまりが上がり、キャラクターを同じ見た目のまま保てる。専用の編集モデルが付き、言葉での直し・参照画像4枚まで・一部の描き直し・外側の描き足しができる。生成は Niji で最速。</p>
+      <div class="how-to-use">
+        <strong>💡 こう使える:</strong> Discord ならプロンプトの末尾に --niji 8、Web なら版の選択で Niji 8 を選ぶ。キャラクターを固定して表情や服、背景だけ変えた差分を作れるので、アニメ調のサムネ・挿絵・キャラ素材の量産に使える。編集モデルはタイル生成と Remix には非対応。料金の変更や HD 出力の大きさは発表に書かれていない。
+      </div>
+      <div class="card-footer">
+        <span class="avail" style="color:#F39C12">🟡 有料（月額あり）</span>
+        <span class="link">🔗 <a href="https://x.com/midjourney/status/2125328040624521639" target="_blank" rel="noopener">Midjourney（公式X）</a></span>
+      </div>
+    </div>
+    <div class="card past-item" data-cat="AIプラットフォーム" data-search="claude で作ったアーティファクトを、mac・windows のアプリとして入れられるように（11/24・ベータ）。無料プランも対象  claude が作ったアーティファクト（動くページや小さな道具）を、パソコンのアプリとして入れられるようになった。専用のウィンドウとアイコンが付き、ほかのアプリと同じように起動できる。通知・ショートカット・メニューバー常駐なども、許可すれば使える。free・pro・max・ultra・team・enterprise に順次公開中（enterprise は管理者が有効にしてから）。 mac / windows 版の claude（6.28899.0 以降）でアーティファクトを開き、題名のメニューか右クリックから「install as app」→「install」。文字数カウンター・絵コンテの整理表・素材の命名ルール変換など、チームで使う小道具を claude に作らせて、そのままアプリとして置いておける。注意：「パソコン全体へのアクセス」を許可したアプリは、ファイルの読み書き・削除やプログラムの実行ができる。anthropic は中身を審査しないので、人からもらったアプリには許可しないこと。web・スマホ・linux では使えない。" style="border-left: 4px solid #00C9A7;">
       <div class="card-header">
         <span>
           <span class="badge" style="background:#00C9A7">🧠 AIプラットフォーム</span>
